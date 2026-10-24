@@ -1,0 +1,3528 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Base de conhecimento editorial derivada do Guia de Inteligência Artificial Generativa do Governo Federal. Publicação beta, com revisão humana e jurídica pendentes.">
+      
+      
+      
+      
+        <link rel="prev" href="../PROVENIENCIA/">
+      
+      
+        <link rel="next" href="../../02-Fundamentos/Fundamentos/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Guia ia generativa normalizado - Wiki de IA Generativa na Administração Pública</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#o-que-e-ia-generativa" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Wiki de IA Generativa na Administração Pública" class="md-header__button md-logo" aria-label="Wiki de IA Generativa na Administração Pública" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Wiki de IA Generativa na Administração Pública
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Guia ia generativa normalizado
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Wiki de IA Generativa na Administração Pública" class="md-nav__button md-logo" aria-label="Wiki de IA Generativa na Administração Pública" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Wiki de IA Generativa na Administração Pública
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LLM Wiki GOV.BR
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-revisao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00 Inicio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    00 Inicio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00-Inicio/INDEX/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LLM Wiki GOV.BR
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-revisao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 Fontes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    01 Fontes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../FONTE-001/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia de Inteligência Artificial Generativa - Governo Federal
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--capturada-validacao-pendente"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../PROVENIENCIA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PROVENIENCIA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia ia generativa normalizado
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia ia generativa normalizado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#o-que-e-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        O que é IA Generativa?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelos-de-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modelos de IA Generativa
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelos-fechados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modelos fechados
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelos-abertos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modelos abertos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#geracao-aumentada-via-recuperacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geração aumentada via recuperação
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#principios-fundamentais-para-o-uso-da-iag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Princípios Fundamentais para o Uso da IAG
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#riscos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Riscos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Riscos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alucinacoes-na-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alucinações na IA Generativa
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#implicacoes-legais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Implicações Legais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vazamento-de-dados-ataques-e-acessos-nao-autorizados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vazamento de Dados, Ataques e Acessos Não Autorizados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importancia-da-anonimizacao-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importância da Anonimização de Dados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vies-na-iag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Viés na IAG
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classificacao-de-riscos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Classificação de Riscos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Classificação de Riscos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#risco-excessivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risco Excessivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alto-risco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alto Risco
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#risco-moderado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risco Moderado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#baixo-risco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Baixo Risco
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recomendacoes-e-boas-praticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recomendações e boas práticas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recomendações e boas práticas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#revisao-institucional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Revisão Institucional
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decisoes-automatizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decisões Automatizadas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conduta-institucional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conduta Institucional
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conteudo-inapropriado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conteúdo Inapropriado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#responsabilidade-do-servidor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Responsabilidade do Servidor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uso-de-credenciais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uso de Credenciais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dados-protegidos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dados Protegidos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alguns-exemplos-de-uso-de-ia-no-setor-publico-brasileiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alguns exemplos de uso de IA no setor público brasileiro
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Alguns exemplos de uso de IA no setor público brasileiro">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#controladoria-geral-da-uniao-cgu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Controladoria-Geral da União (CGU)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#para-saber-mais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Para saber mais
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-de-escolha-de-ferramentas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Critérios de Escolha de Ferramentas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Critérios de Escolha de Ferramentas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ferramentas-internaslocais-aprovadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ferramentas Internas/Locais (Aprovadas)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ferramentas-externascomerciais-fechadas-ou-em-nuvem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ferramentas Externas/Comerciais (Fechadas ou em Nuvem)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#software-livre-e-codigo-aberto-open-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software Livre e Código Aberto (Open Source)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cuidados-com-o-compartilhamento-de-informacoes-oficiais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cuidados com o Compartilhamento de Informações Oficiais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instrucoes-para-prompts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Instruções para Prompts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#governanca-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Governança de Dados
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#competencias-digitais-e-capacitacao-de-servidores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Competências Digitais e Capacitação de Servidores
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Competências Digitais e Capacitação de Servidores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#revisao-critica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Revisão Crítica
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#identificacao-de-falhas-alucinacoes-e-vieses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Identificação de Falhas (Alucinações e Vieses)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#literacia-em-ia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Literacia em IA
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Considerações finais
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referências
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 Fundamentos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    02 Fundamentos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Fundamentos/Fundamentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fundamentos
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-construcao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Fundamentos/Gera%C3%A7%C3%A3o%20Aumentada%20via%20Recupera%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geração Aumentada via Recuperação
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Fundamentos/Grandes%20Modelos%20de%20Linguagem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grandes Modelos de Linguagem
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Fundamentos/Intelig%C3%AAncia%20Artificial%20Generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inteligência Artificial Generativa
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 Governanca
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    03 Governanca
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Governanca/Governan%C3%A7a%20e%20Prote%C3%A7%C3%A3o%20de%20Dados%20na%20IA%20Generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Governança e Proteção de Dados na IA Generativa
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Governanca/Governan%C3%A7a/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Governança
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-construcao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Governanca/Supervis%C3%A3o%20Humana%20e%20Responsabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Supervisão Humana e Responsabilidade
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Governanca/Transpar%C3%AAncia%20e%20Auditabilidade%20da%20IA%20Generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transparência e Auditabilidade da IA Generativa
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Governanca/%C3%89tica%20e%20Princ%C3%ADpios%20da%20IA%20Generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ética e Princípios da IA Generativa
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 Riscos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    04 Riscos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Riscos/Alucina%C3%A7%C3%B5es%20na%20IA%20Generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alucinações na IA Generativa
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Riscos/Classifica%C3%A7%C3%A3o%20de%20Riscos%20dos%20Sistemas%20de%20IA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classificação de Riscos dos Sistemas de IA
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Riscos/Riscos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Riscos
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-construcao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../04-Riscos/Vieses%20na%20IA%20Generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vieses na IA Generativa
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 Regulamentacao
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    05 Regulamentacao
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Regulamentacao/LGPD%20e%20Prote%C3%A7%C3%A3o%20de%20Dados%20na%20IA%20Generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LGPD e Proteção de Dados na IA Generativa
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Regulamentacao/Marco%20Legal%20da%20Intelig%C3%AAncia%20Artificial%20no%20Brasil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Marco Legal da Inteligência Artificial no Brasil
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Regulamentacao/Normas%20e%20Orienta%C3%A7%C3%B5es%20Institucionais%20para%20IA%20Generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normas e Orientações Institucionais para IA Generativa
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Regulamentacao/Regulamenta%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regulamentação
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-construcao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 Boas Praticas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    06 Boas Praticas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-Boas-Praticas/Boas%20Pr%C3%A1ticas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Boas Práticas
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-construcao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-Boas-Praticas/Compet%C3%AAncias%20Digitais%20e%20Literacia%20em%20IA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Competências Digitais e Literacia em IA
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-construcao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-Boas-Praticas/Conduta%20Institucional%20e%20Responsabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conduta Institucional e Responsabilidade
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-Boas-Praticas/Credenciais%20e%20Informa%C3%A7%C3%B5es%20Protegidas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Credenciais e Informações Protegidas
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-Boas-Praticas/Crit%C3%A9rios%20de%20Escolha%20de%20Ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Critérios de Escolha de Ferramentas
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-construcao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-Boas-Praticas/Revis%C3%A3o%20Humana%20e%20Valida%C3%A7%C3%A3o%20de%20Conte%C3%BAdo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Revisão Humana e Validação de Conteúdo
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 Casos de Uso
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    07 Casos de Uso
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Casos-de-Uso/Alice%20CGU%20-%20An%C3%A1lise%20de%20Licita%C3%A7%C3%B5es/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alice CGU - Análise de Licitações
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Casos-de-Uso/Aplica%C3%A7%C3%B5es%20de%20IA%20Generativa%20na%20Administra%C3%A7%C3%A3o%20P%C3%BAblica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplicações de IA Generativa na Administração Pública
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Casos-de-Uso/Casos%20de%20Uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Casos de Uso
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-construcao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 Glossario
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    08 Glossario
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08-Glossario/Gloss%C3%A1rio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossário
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 Referencias
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    09 Referencias
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-Referencias/Refer%C3%AAncias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referências
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 Mapas de Conhecimento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    10 Mapas de Conhecimento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Mapas-de-Conhecimento/Mapa%20Integrado%20de%20Conhecimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapa Integrado de Conhecimento
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#o-que-e-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        O que é IA Generativa?
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelos-de-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modelos de IA Generativa
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelos-fechados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modelos fechados
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#modelos-abertos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Modelos abertos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#geracao-aumentada-via-recuperacao" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Geração aumentada via recuperação
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#principios-fundamentais-para-o-uso-da-iag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Princípios Fundamentais para o Uso da IAG
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#riscos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Riscos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Riscos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#alucinacoes-na-ia-generativa" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alucinações na IA Generativa
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#implicacoes-legais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Implicações Legais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vazamento-de-dados-ataques-e-acessos-nao-autorizados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Vazamento de Dados, Ataques e Acessos Não Autorizados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#importancia-da-anonimizacao-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Importância da Anonimização de Dados
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#vies-na-iag" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Viés na IAG
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#classificacao-de-riscos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Classificação de Riscos
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Classificação de Riscos">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#risco-excessivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risco Excessivo
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#alto-risco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alto Risco
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#risco-moderado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Risco Moderado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#baixo-risco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Baixo Risco
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#recomendacoes-e-boas-praticas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Recomendações e boas práticas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Recomendações e boas práticas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#revisao-institucional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Revisão Institucional
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#decisoes-automatizadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Decisões Automatizadas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conduta-institucional" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conduta Institucional
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#conteudo-inapropriado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Conteúdo Inapropriado
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#responsabilidade-do-servidor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Responsabilidade do Servidor
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#uso-de-credenciais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Uso de Credenciais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#dados-protegidos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Dados Protegidos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#alguns-exemplos-de-uso-de-ia-no-setor-publico-brasileiro" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Alguns exemplos de uso de IA no setor público brasileiro
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Alguns exemplos de uso de IA no setor público brasileiro">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#controladoria-geral-da-uniao-cgu" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Controladoria-Geral da União (CGU)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#para-saber-mais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Para saber mais
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#criterios-de-escolha-de-ferramentas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Critérios de Escolha de Ferramentas
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Critérios de Escolha de Ferramentas">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#ferramentas-internaslocais-aprovadas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ferramentas Internas/Locais (Aprovadas)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#ferramentas-externascomerciais-fechadas-ou-em-nuvem" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Ferramentas Externas/Comerciais (Fechadas ou em Nuvem)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#software-livre-e-codigo-aberto-open-source" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Software Livre e Código Aberto (Open Source)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cuidados-com-o-compartilhamento-de-informacoes-oficiais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Cuidados com o Compartilhamento de Informações Oficiais
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#instrucoes-para-prompts" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Instruções para Prompts
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#governanca-de-dados" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Governança de Dados
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#competencias-digitais-e-capacitacao-de-servidores" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Competências Digitais e Capacitação de Servidores
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Competências Digitais e Capacitação de Servidores">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#revisao-critica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Revisão Crítica
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#identificacao-de-falhas-alucinacoes-e-vieses" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Identificação de Falhas (Alucinações e Vieses)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#literacia-em-ia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Literacia em IA
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consideracoes-finais" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Considerações finais
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#referencias" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Referências
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+  <h1>Guia ia generativa normalizado</h1>
+
+<div class="admonition warning">
+<p class="admonition-title">Publicação beta — revisão pendente</p>
+<p>Esta Wiki é uma iniciativa editorial de organização e interpretação de conhecimento, baseada no <strong>Guia de Inteligência Artificial Generativa do Governo Federal</strong>. <strong>Não é uma publicação oficial do Governo Federal</strong> e não substitui o documento original.</p>
+<p>O conteúdo encontra-se em <strong>fase beta</strong>, com <strong>revisão humana de conteúdo e revisão jurídica pendentes</strong>. As interpretações, sínteses e recomendações editoriais não devem ser confundidas com determinações legais ou orientações oficiais vinculantes.</p>
+<p>Para decisões institucionais, consulte as fontes primárias, a legislação vigente e as áreas competentes de sua organização.</p>
+</div>
+<p><a href="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/imagens/header_guiaia/view"><img alt="header_guiaia" src="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/guia-ia-generativa/@@govbr.institucional.banner/b2800532-9528-42f4-b021-805b55ba218f/@@images/2f9ee8df-8a0c-44bb-bf51-a6f6077696fd.png" /></a></p>
+<p><a href="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/ilustra01.png/view"><img alt="A ilustração retrata uma mão mecânica que está prestes a tocar uma mão humana." src="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/guia-ia-generativa/@@govbr.institucional.banner/fabc9389-8a7c-4858-a86c-e7c2a071890e/@@images/e1e454e6-ff0d-49c1-ba03-b10802b4a498.png" /></a></p>
+<p>Este guia foi elaborado pela Secretaria de Governo Digital (SGD) e pelo Serviço Federal de Processamento de Dados (SERPRO), como parte das ações do Núcleo de Inteligência Artificial (IA) do Governo, com o propósito de apoiar servidores públicos no entendimento e uso responsável de ferramentas de Inteligência Artificial Generativa (IAG).</p>
+<p>Neste guia você encontrará uma visão geral da IAG, explicações claras sobre seus desafios e limitações, além de orientações práticas para o uso ético e eficaz dessas ferramentas no setor público brasileiro.</p>
+<p>Este guia apresenta orientações sobre uso de Inteligência Artificial Generativa (IAG) no setor público, incluindo descrição dos modelos, riscos, boas práticas e critérios de escolha de ferramentas. O conteúdo será atualizado conforme alterações normativas e evolução tecnológica.</p>
+<p><img alt="Infográfico miniatura das boas práticas do Framework AIE" src="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/infog_bper_mini_amplia_def.png" /></p>
+<p>Você pode baixar aqui um <strong>PDF com infográficos</strong> que sintetizam as principais <strong>boas práticas e riscos</strong> associados ao uso da <strong>IA generativa</strong> no setor público.  </p>
+<p><a href="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/infograficos_defeso.pdf/@@download/file">Download</a></p>
+<h2 id="o-que-e-ia-generativa">O que é IA Generativa?<a class="headerlink" href="#o-que-e-ia-generativa" title="Permanent link">&para;</a></h2>
+<p><a href="https://www.gov.br/governodigital/pt-br/estrategias-e-governanca-digital/transformacao-digital/central-de-qualidade/labq/imagens/oquee.jpg/view"><img alt="oqueE.jpg" src="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/guia-ia-generativa/@@govbr.institucional.banner/e7e02cdc-385b-4e95-bb13-5b35d944f0fb/@@images/1331e8e0-f575-47da-a209-a3f9bc26d1e9.png" /></a></p>
+<p>A Inteligência Artificial Generativa é um ramo da inteligência artificial projetado para criar conteúdos, como textos, áudios, imagens, vídeos e até códigos de software. Essa tecnologia se baseia em modelos computacionais avançados, que aprendem padrões a partir de grandes volumes de dados. As ferramentas generativas atualmente mais conhecidas são os LLMs - (Large Language Model, ou Modelos de linguagem de grande escala) que tem como função central que geram textos de maneira natural, semelhante à humana.</p>
+<p>Os LLMs, como ChatGPT, Copilot, LLaMA e Gemini, funcionam por meio de uma <strong>estrutura de probabilidades</strong>, na qual procuram replicar com a maior precisão possível a maneira como a linguagem humana é utilizada. O modelo constrói respostas de forma incremental, reconhecendo a entrada fornecida pelo usuário (chamada prompt) e avaliando qual é a sequência de texto mais parecida com a de um ser humano no sentido estatístico. 
+No entanto, é fundamental notar que as respostas da IAG não se baseiam em uma compreensão real de contexto, significado ou experiência. Por essa razão, a IAG pode cometer erros factuais convincentes, chamados <strong>"alucinações".</strong></p>
+<p>Apesar de todo potencial da IA, inclusive para a realização de tarefas complexas, é sempre importante lembrar que <strong>essa tecnologia não substitui o papel dos humanos na revisão e análise dos resultados obtidos.</strong> Afinal, nem sempre os resultados produzidos com a ajuda da IA são confiáveis, previsíveis ou explicáveis, especialmente nos modelos de IA mais recentes que são baseados em probabilidades, ou seja, sempre existe a chance da resposta não ser adequada.</p>
+<p>Para fazer uma rápida comparação, os programas tradicionais de computador que você já conhece funcionam como se fosse uma calculadora: 2+2 sempre será igual a 4. Já em um sistema que funcione utilizando IA, o resultado de 2+2 pode ser igual ou diferente de 4. Vai depender se o modelo de IA foi treinado com uma base de dados com informações corretas ou incorretas. Por esse motivo todo sistema de IA carrega algum grau de risco, e por isso também a <strong>revisão dos resultados por parte do usuário</strong> é tão importante.</p>
+<p>A diferença essencial entre a IAG e a IA Analítica (ou Preditiva) reside em seus objetivos. <strong>A IA Analítica</strong> utiliza o aprendizado de máquina para <strong>processar grandes quantidades de dados existentes</strong> para <strong>gerar previsões, recomendações ou classificações.</strong> Seu foco é fazer inferências e prever um estado futuro (como a previsão de crimes ou detecção precoce de doenças) para fornecer suporte à decisão humana (Inteligência Assistida). Em contraste, a <strong>IA Generativa</strong> não se limita a analisar dados, mas sim a <strong>produzir algo novo</strong> (texto, imagem, áudio), dedicando-se à <strong>criação de conteúdo sintético</strong> através dos padrões que internalizou durante o treinamento.</p>
+<p>Os grandes modelos generativos de IA são um exemplo típico de Modelo de IA de Finalidade Geral, por permitirem a geração flexível de conteúdo, como texto, áudio, imagens ou vídeo, e podem se adaptar a uma ampla gama de tarefas distintas. Outros exemplos de IAG incluem modelos que produzem imagens a partir de texto (como DALL-E, Midjourney e Stable Diffusion).</p>
+<p>No setor público, as ferramentas de IAG oferecem oportunidades para modernizar processos, como automação de tarefas repetitivas, redação de documentos, criação de resumos de documentos e criação de materiais visuais. Contudo, sua adoção deve ser feita de forma criteriosa, garantindo que os benefícios superem os riscos e o uso esteja alinhado com valores éticos e regulatórios.</p>
+<p>Modelos de inteligência artificial passam normalmente por ciclos compostos por duas grandes fases: <strong>treinamento</strong> – onde ocorre o ajuste e captura de padrões nos dados, e <strong>produção</strong> - fase da aplicação. Durante a fase de treinamento, esses modelos são expostos a dados diversos, como documentos, imagens e outras fontes públicas ou privadas, para identificar relações e estruturas. Assim, conseguem gerar conteúdos que parecem ter sido criados por humanos. Por exemplo, podem criar um relatório, compor um texto ou gerar um design com base em comandos específicos fornecidos por usuários.</p>
+<p>Outra característica importante é que a IAG funciona com base em probabilidade e padrões, e não possui "consciência" ou "intenção". Isso significa que, embora seja uma ferramenta poderosa, ela pode gerar respostas que, em alguns casos, não são adequadas ou estão fora de contexto, o que exige atenção e validação por parte dos usuários.</p>
+<p>É crucial entender que, como esses modelos dependem dos dados com os quais foram treinados, eles podem reproduzir vieses ou informações imprecisas presentes nesses dados. Isso reforça a necessidade contínua de supervisão humana e de uma avaliação cuidadosa de suas aplicações, especialmente em instituições públicas que lidam com informações sensíveis e de impacto social.</p>
+<h2 id="modelos-de-ia-generativa">Modelos de IA Generativa<a class="headerlink" href="#modelos-de-ia-generativa" title="Permanent link">&para;</a></h2>
+<p>Os modelos de IAG podem ser classificados por licenças <strong>abertas</strong> ou <strong>fechadas</strong>. A diferença entre eles está diretamente relacionada à forma como podem ser utilizados e adaptados às necessidades específicas de cada contexto.</p>
+<p>Enquanto os modelos fechados são projetados para oferecer soluções padronizadas e práticas, os modelos abertos se destacam pela flexibilidade, permitindo personalizações e maior controle por parte dos usuários. A escolha entre eles depende das necessidades do projeto, dos recursos disponíveis e das preocupações éticas envolvidas.</p>
+<p>Em termos de desempenho, os modelos fechados frequentemente oferecem resultados otimizados em tarefas gerais devido ao alto investimento das empresas de tecnologia em infraestrutura e treinamento contínuo. Já os modelos abertos, embora demandem mais esforço para ajustes, podem superar os fechados em casos de uso específico, especialmente quando adaptados com dados internos.</p>
+<p>A escolha entre os dois tipos de modelos deve equilibrar a disponibilidade de recursos, eficiência, privacidade, custo e a necessidade de personalização, garantindo que as ferramentas de IAG sejam usadas de forma responsável e alinhada aos objetivos institucionais.</p>
+<h2 id="modelos-fechados">Modelos fechados<a class="headerlink" href="#modelos-fechados" title="Permanent link">&para;</a></h2>
+<p><a href="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/fullmodelo_fechado.png/view"><img alt="Ilustração vetorial, em estilo plano e com contornos brancos, de um robô humanoide visto de frente. O robô veste uma armadura futurista com um esquema de cores predominante em azul-claro, azul-marinho e verde-limão. O detalhe central de seu torso é uma grande porta de cofre retangular, que possui dobradiças amarelas na lateral esquerda e um grande mostrador circular amarelo com o orifício de uma fechadura preta no centro. A cabeça do robô é arredondada, lembrando um capacete, com um visor único central e detalhes laterais amarelos. Os braços e pernas são revestidos por placas de metal coloridas, e as mãos estão relaxadas ao lado do corpo. Fundo branco." src="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/guia-ia-generativa/@@govbr.institucional.banner/ad1cd647-81a7-45e6-975e-4194a60ee405/@@images/74b37ede-1795-431b-b469-10bf6300e498.png" /></a></p>
+<p>Desenvolvidos principalmente por grandes empresas como OpenAI, Google e Anthropic, são amplamente utilizados para aplicações como assistentes em bases de conhecimento e bases de dados, auxílio na geração de relatórios padronizados, e automação de atendimento.</p>
+<p>Esses modelos geralmente são acessados por meio de APIs, o que facilita sua integração em sistemas existentes e permite que as instituições utilizem suas funcionalidades sem a necessidade de infraestrutura complexa.</p>
+<p>No mercado brasileiros, para modelos fechados destaca-se a Maritaca IA, que fornece um modelo treinado, utilizando bases de língua portuguesa, e que pode atender às demandas locais com um custo reduzido e performance equivalente a essas outras soluções. </p>
+<p>Atualmente, os modelos dessas empresas que oferecem os melhores benchmarks e desempenhos são: o GPT-4o, GPT-5 e o3-mini da OpenAI, o Gemini do Google, e o Claude da Anthropic, manus da Manus AI. Apesar das vantagens em desempenho e da facilidade no uso, os modelos fechados apresentam desafios importantes. Muitas vezes, seu uso implica o envio de dados para servidores localizados no exterior, o que pode representar riscos à privacidade e à conformidade com regulamentos locais como a Lei Geral de Proteção de Dados, dentre outras. Além disso, esses modelos funcionam como “caixas pretas”, dificultando auditorias e adaptações, o que pode ser uma limitação para instituições públicas que lidam com informações sensíveis ou que precisam de maior transparência.</p>
+<h2 id="modelos-abertos">Modelos abertos<a class="headerlink" href="#modelos-abertos" title="Permanent link">&para;</a></h2>
+<p><a href="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/fullmodelo_aberto.png/view"><img alt="Ilustração vetorial de corpo inteiro de um robô humanoide futurista, em posição de três quartos voltada para a esquerda. O robô possui um estilo plano (flat design) com contornos brancos e uma paleta de cores em azul-acinzentado, verde e cinza-escuro. A cabeça é envolta por um domo transparente que revela um cérebro estilizado com conexões de rede neural em amarelo; os olhos são representados por dois círculos amarelos. No centro do peito, uma placa exibe um ícone de circuito ou microchip amarelo. Os membros são segmentados e articulados, transmitindo uma aparência tecnológica e cibernética." src="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/guia-ia-generativa/@@govbr.institucional.banner/e8c9ab2e-4f40-43a0-ba6a-9e22e13be822/@@images/060cdb99-69b6-4817-804a-63de27d8bdf1.png" /></a></p>
+<p>Desenvolvidos principalmente por empresas como a Meta, com o LLaMA 4, pela europeia Mistral AI, com o Mistral 7B, pelo DeepSeek, com o DeepSeek-R1, e pelo Alibaba Cloud com o Qwen-2.5, esses modelos oferecem vantagens significativas para quem busca maior controle e flexibilidade. Esses modelos são disponibilizados sob licenças abertas, permitindo que sejam utilizados e ajustados para atender a contextos específicos e podem ser instalados e executados em servidores locais, eliminando a necessidade de enviar dados para terceiros e garantindo a segurança de informações sensíveis. No Brasil, a Maritaca AI destaca-se com o Sabia-7B, voltado para o idioma português, demonstrando performance equivalente a um custo reduzido.</p>
+<p>A Hugging Face se tornou a principal plataforma para acesso a esses modelos abertos. Com suporte dessa plataforma, os usuários podem acessar esses modelos, fazer instalações locais, e realizar customizações tanto locais como diretamente na plataforma, permitindo que os usuários possam utilizar esses modelos de modo simplificado sem necessidade de treinamento do zero.</p>
+<p>Esses modelos são disponibilizados sob licenças abertas e podem ser ajustados para atender a contextos específicos, sendo executados em servidores locais para garantir maior segurança e controle sobre os dados. A plataforma Hugging Face oferece também mecanismos para download, fine-tuning e inferência na nuvem de forma simplificada, permitindo que os órgãos possam utilizar esses modelos pré-treinados sem precisar de infraestrutura própria.</p>
+<h2 id="geracao-aumentada-via-recuperacao">Geração aumentada via recuperação<a class="headerlink" href="#geracao-aumentada-via-recuperacao" title="Permanent link">&para;</a></h2>
+<p>Como tendência na área da IAG podemos destacar a Geração Aumentada via Recuperação - RAG (Retrieval-Augmented Generation). Trata-se de uma das inovações mais promissoras para lidar com gestão de conhecimento nesse contexto. RAG é uma técnica que combina síntese de texto com recuperação de informação, integrando uma base de conhecimento ao modelo de IAG. Isso permite respostas mais precisas e contextualmente aderentes, ao complementar a capacidade do LLM com dados mais relevantes.</p>
+<p>Com o RAG, o modelo não é ajustado diretamente, mas combinado a sistemas de informações que fornecem bases de dados que podem ser consultadas para a geração de respostas. Embora os modelos fechados sejam projetados para tarefas generalistas, eles também podem ser integrados a dados próprios de uma instituição por meio de técnicas como RAG.</p>
+<h2 id="principios-fundamentais-para-o-uso-da-iag">Princípios Fundamentais para o Uso da IAG<a class="headerlink" href="#principios-fundamentais-para-o-uso-da-iag" title="Permanent link">&para;</a></h2>
+<p><strong>Legalidade:</strong> o uso da IAG deve estar em conformidade com as leis vigentes, incluindo a Lei Geral de Proteção de Dados (LGPD) e demais normativos, garantindo que os direitos dos cidadãos sejam respeitados.</p>
+<p><strong>Impessoalidade:</strong> decisões assistidas por IAG devem ser imparciais, baseadas em critérios objetivos e livres de viés ou preconceito.</p>
+<p><strong>Moralidade (Ética):</strong> essencial no uso de IAG, assegurando transparência, justiça e respeito aos direitos humanos e às garantias democráticas.</p>
+<p><strong>Publicidade:</strong> os processos envolvendo IAG devem ser transparentes, permitindo auditoria e contestação quando necessário.</p>
+<p><strong>Eficiência:</strong> ferramentas de IAG devem ser usadas para automatizar tarefas repetitivas, liberando recursos para atividades mais estratégicas, desde que sempre com revisão humana.</p>
+<h2 id="riscos">Riscos<a class="headerlink" href="#riscos" title="Permanent link">&para;</a></h2>
+<p><a href="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/riscos_b_1.png/view"><img alt="Banner Riscos" src="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/riscos_b_1.png/@@images/92e2efc3-2102-41e4-ace7-8fa0c478e280.png" /></a></p>
+<p>Riscos Inerentes à IA Generativa</p>
+<p><a href="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/riscos_b_2.png/view"><img alt="Banner Riscos 2" src="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/riscos_b_2.png/@@images/0e074cc7-a16f-410b-bf01-5839752df9f2.png" /></a></p>
+<p>Riscos Inerentes à IA Generativa</p>
+<p>Antes de utilizar ferramentas de IAG em processos de trabalho, é necessário analisar os benefícios e riscos associados a cada caso de uso. A identificação das vulnerabilidades específicas e a implementação de medidas de mitigação são passos indispensáveis para garantir que as ferramentas sejam usadas de forma ética e segura. O uso de IAG está sujeito a riscos inerentes, como:</p>
+<h3 id="alucinacoes-na-ia-generativa">Alucinações na IA Generativa<a class="headerlink" href="#alucinacoes-na-ia-generativa" title="Permanent link">&para;</a></h3>
+<p>Modelos de IAG são treinados em grandes volumes de dados e podem produzir respostas “criativas” baseadas em padrões e informações aprendidas durante um longo processo de treinamento. Entretanto, essa criatividade sintética pode desencadear alucinações – situações em que um modelo de inteligência artificial gera informações inexatas, irrelevantes ou totalmente fabricadas, mesmo que pareçam confiáveis e coerentes. Esse comportamento surge devido a limitações nos dados de treinamento, dados de entrada e na arquitetura do modelo, tais como:</p>
+<p><strong>Perguntas mal formuladas:</strong> questões ambíguas ou abertas podem levar a respostas imprecisas.</p>
+<p><strong>Dados incompletos ou enviesados:</strong> o modelo pode basear sua resposta em informações limitadas ou distorcidas presentes no conjunto de dados.</p>
+<p><strong>Tendência a completar informações:</strong> quando não encontra uma resposta clara, o modelo pode "criar" com base em dados relacionados. Modelos de IAG também podem gerar textos e apontar referências inexistentes, o que não é aceitável para a segurança da informação veiculada.</p>
+<p><strong>Falta de atualização:</strong>  os modelos são treinados com dados disponíveis até uma determinada data e, após isso, não conseguem incluir automaticamente informações mais recentes. Isso significa que, para assuntos contemporâneos ou em constante evolução, as respostas podem estar desatualizadas.</p>
+<h3 id="implicacoes-legais">Implicações Legais<a class="headerlink" href="#implicacoes-legais" title="Permanent link">&para;</a></h3>
+<p>É essencial que o uso de ferramentas de IAG seja acompanhado de uma avaliação rigorosa sobre a origem e a natureza dos dados gerados, garantindo que estejam em conformidade com a legislação e as boas práticas institucionais. Este item aborda os cuidados necessários em relação ao uso de ferramentas de IAG, considerando aspectos legais e éticos ligados a direitos autorais e propriedade intelectual.</p>
+<p><strong>Dados Protegidos:</strong> muitas ferramentas de IAG são treinadas com dados que podem estar protegidos por direitos autorais e propriedade intelectual. Embora a coleta e o tratamento desses dados possam ser legais, nem sempre isso é garantido. Os sistemas de IA podem violar a LGPD, a Lei de Direitos Autorais ou outras leis de privacidade.</p>
+<p><strong>Obras Protegidas:</strong> trechos de textos, imagens ou outros conteúdos gerados pela IAG podem conter elementos derivados de obras protegidas, expondo o órgão a riscos jurídicos e reputacionais.</p>
+<p><strong>Responsabilidade:</strong> Ainda que a IAG possa ser usada na automação de uma atividade no trabalho, a responsabilidade final sobre a produção do conteúdo é do servidor, cabendo a ele a revisão e validação do material produzido dentro dos princípios da administração pública.</p>
+<h3 id="vazamento-de-dados-ataques-e-acessos-nao-autorizados">Vazamento de Dados, Ataques e Acessos Não Autorizados<a class="headerlink" href="#vazamento-de-dados-ataques-e-acessos-nao-autorizados" title="Permanent link">&para;</a></h3>
+<p>O uso de modelos de inteligência artificial generativa pode expor organizações e usuários a uma série de riscos relacionados à segurança da informação, caso não sejam adotadas práticas robustas de mitigação.</p>
+<p><strong>Vazamento de Dados:</strong> modelos generativos treinados em grandes volumes de dados podem, inadvertidamente, restituir informações sensíveis presentes no conjunto de dados original, especialmente se os dados não foram devidamente anonimizados. Além disso, práticas inadequadas de armazenamento e compartilhamento podem expor informações pessoais ou confidenciais.</p>
+<p><strong>Ataques cibernéticos com IA:</strong> a IA generativa pode ser usada para criar phishings, áudios ou vídeos falsos (deepfakes) que tornam golpes mais convincentes. É essencial reforçar a cibersegurança e capacitar servidores para reconhecer e prevenir essas ameaças.</p>
+<p><strong>Envenenamento de dados:</strong> ocorre quando informações falsas ou manipuladas são inseridas nos conjuntos usados para treinar modelos de IA, comprometendo seus resultados e decisões. Esse risco exige <strong>controle rigoroso da origem e qualidade dos dados</strong>, além de <strong>monitoramento contínuo</strong> para garantir integridade e confiabilidade nos sistemas utilizados pelo setor público.</p>
+<h3 id="importancia-da-anonimizacao-de-dados">Importância da Anonimização de Dados<a class="headerlink" href="#importancia-da-anonimizacao-de-dados" title="Permanent link">&para;</a></h3>
+<p>A anonimização de dados é uma prática essencial para garantir que as informações pessoais e sensíveis não sejam vinculadas a indivíduos ou entidades específicas, reduzindo o risco de exposição acidental. Técnicas como mascaramento, tokenização, generalização e substituição de dados reais por sintéticos são recomendadas para proteger a privacidade dos indivíduos.</p>
+<h3 id="vies-na-iag">Viés na IAG<a class="headerlink" href="#vies-na-iag" title="Permanent link">&para;</a></h3>
+<p>Apresentado como uma questão central devido à dependência dos modelos de IAG de grandes volumes de dados de treinamento. Esses dados podem conter preconceitos implícitos, desigualdades ou representações inadequadas, que acabam sendo refletidos nos resultados gerados.</p>
+<p><strong>Viés de Contexto:</strong> ocorre quando a IA falha em interpretar ou aplicar os dados corretamente em contextos diferentes daquele em que foi treinada. Pode ser considerado um viés de contexto linguístico e cultural quando as diferenças de idioma, gírias, dialetos ou contextos culturais não são capturados. Ex.: interpretar incorretamente expressões regionais ou termos indígenas brasileiros.</p>
+<p><strong>Viés de Automação:</strong> é a tendência de confiar nas decisões automatizadas da IA como sendo sempre precisas ou imparciais, mesmo quando estão incorretas.</p>
+<p><strong>Viés de Representatividade:</strong> dados de treinamento que não representam adequadamente a diversidade podem fazer com que o modelo funcione bem para alguns grupos, mas mal para outros.</p>
+<p><strong>Viés de Seleção:</strong> ocorre quando os dados usados no treinamento não são suficientemente aleatórios ou representativos, resultando em uma amostra enviesada.</p>
+<p><strong>Viés de Exclusão:</strong> grupos sub-representados ou excluídos do conjunto de dados acabam sendo ignorados, ou mal interpretados pela IA. O modelo tende a reforçar padrões já dominantes nos dados, sem considerar alternativas. Ex.: associar automaticamente enfermeiras a mulheres, porque essa associação é mais frequente nos textos de treinamento.</p>
+<p><strong>Viés Histórico:</strong> quando os dados refletem desigualdades e preconceitos já existentes na sociedade.Ex.: modelos de recrutamento que repetem discriminações de gênero ou raça presentes em dados antigos.</p>
+<p><strong>Viés Algorítmico:</strong> Introduzido pelo próprio design do algoritmo (ponderação de variáveis, funções de custo, priorização de certas saídas). Ex.: um sistema de recomendação que privilegia conteúdos mais populares, invisibilizando produções de nicho.</p>
+<p><strong>Viés de Interação (ou Feedback):</strong> Ocorre quando o uso contínuo pelos usuários reforça vieses já existentes. Ex.: se usuários aprovam respostas estereotipadas, o modelo “aprende” a replicá-las mais.</p>
+<h2 id="classificacao-de-riscos">Classificação de Riscos<a class="headerlink" href="#classificacao-de-riscos" title="Permanent link">&para;</a></h2>
+<p>O Projeto de Lei nº 2338/2023 em discussão no Congresso Nacional busca estabelecer um marco regulatório para o desenvolvimento e uso de sistemas de inteligência artificial (IA) no Brasil. A proposta estabelece uma classificação dos riscos da IA adequando as exigências conforme o potencial impacto dos sistemas. Com base nesse projeto, esta cartilha adota uma categorização que define riscos excessivos, altos riscos e demais riscos, determinando o regime jurídico aplicável e as obrigações correspondentes para garantir a segurança, transparência e proteção dos direitos fundamentais.</p>
+<h3 id="risco-excessivo">Risco Excessivo<a class="headerlink" href="#risco-excessivo" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>o <strong>PL 2338/2023</strong> propõe a proibição do desenvolvimento e uso de sistemas de inteligência artificial que apresentem riscos excessivos à sociedade e aos direitos fundamentais. São considerados de risco excessivo e vedados os sistemas de IA que:</p>
+</blockquote>
+<p>Induzam ou manipulem comportamentos de forma prejudicial à saúde, segurança ou direitos fundamentais.</p>
+<p>Explorem vulnerabilidades de grupos vulneráveis (ex.: crianças, idosos, pessoas com deficiência) para influenciar ou causar danos.</p>
+<p>Realizem perfis preditivos criminais, avaliando características pessoais para prever crimes ou reincidência.</p>
+<p>Sejam utilizados pelo poder público para pontuação social, classificando cidadãos com base em seu comportamento ou personalidade de maneira discriminatória.</p>
+<p>Façam identificação biométrica em tempo real em espaços públicos, salvo exceções (ex.: busca de pessoas desaparecidas).</p>
+<h3 id="alto-risco">Alto Risco<a class="headerlink" href="#alto-risco" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>Apesar desses sistemas <strong>não serem proibidos</strong>, o seu uso deve ser cuidadosamente monitorado e controlado para evitar abusos, discriminações ou danos irreversíveis, podendo gerar impactos significativos sobre direitos fundamentais, segurança, privacidade e bem-estar da sociedade. Dessa forma, a categorização de alto risco impõe obrigações regulatórias mais rígidas e medidas específicas de governança, exigindo avaliação de impacto algorítmico, transparência, supervisão humana e mitigação de riscos, garantindo que a IA seja usada de forma ética e responsável. São considerados de alto risco os sistemas de IA utilizados em:</p>
+</blockquote>
+<p>Uso em segurança para gestão de infraestruturas críticas, como trânsito e redes de abastecimento.</p>
+<p>Aplicações na educação e formação profissional, incluindo acesso e avaliação de estudantes.</p>
+<p>Uso em recrutamento, triagem, avaliação de candidatos, gestão e monitoramento no trabalho.</p>
+<p>Avaliação de elegibilidade e concessão de serviços públicos e privados essenciais.</p>
+<p>Análise da capacidade de endividamento e classificação de crédito.</p>
+<p>Definição de prioridades para serviços de emergência, como bombeiros e assistência médica.</p>
+<p>Apoio à administração da justiça, investigação e aplicação da lei.</p>
+<p>Uso de veículos autônomos com riscos à integridade física.</p>
+<p>Aplicações na saúde, incluindo diagnósticos e procedimentos médicos.</p>
+<p>Uso de sistemas biométricos de identificação.</p>
+<p>Investigação criminal e segurança pública, incluindo avaliação de riscos e perfis criminais.</p>
+<p>Análise de crimes por meio de grandes conjuntos de dados para identificar padrões.</p>
+<p>Investigação administrativa para avaliar provas e prever infrações com base em perfis.</p>
+<p>Gestão da migração e controle de fronteiras.</p>
+<h3 id="risco-moderado">Risco Moderado<a class="headerlink" href="#risco-moderado" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>Abrange sistemas que <strong>apresentam impacto significativo</strong>, mas <strong>não tão elevado quanto os sistemas classificados como de alto risco</strong>. Esses sistemas podem afetar a vida das pessoas de maneira relevante, porém o potencial de dano é limitado ou controlável, não sendo considerado grave o suficiente para justificar um nível de regulamentação tão rigoroso quanto os de risco alto ou excessivo. Entretanto, exige-se a implementação de medidas de transparência, explicabilidade e supervisão, mas com menos rigidez do que os sistemas de alto risco. Exemplos de sistemas de risco moderado incluem:</p>
+</blockquote>
+<p>IA em áreas como recursos humanos, por exemplo, para triagem inicial de currículos ou entrevistas automatizadas, onde as decisões são importantes, mas não definitivas.</p>
+<p>Sistemas de recomendação em comércio eletrônico, que influenciam o consumo, mas sem implicações diretas na saúde, liberdade ou outros direitos fundamentais dos indivíduos.</p>
+<p>Análise de dados em setores como marketing ou publicidade, nas quais a IA é usada para personalizar ofertas, mas sem invadir a privacidade de forma invasiva.</p>
+<p>Geração ou manipulação de texto, imagem, áudio ou vídeo — especialmente se pode causar confusão ou engano (por exemplo, deepfakes de figuras públicas).</p>
+<h3 id="baixo-risco">Baixo Risco<a class="headerlink" href="#baixo-risco" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p>Esses sistemas não exigem medidas rigorosas de regulação, <strong>mas ainda devem cumprir requisitos básicos de transparência, responsabilidade e boas práticas de governança</strong>. Embora esses sistemas tenham baixo potencial de dano, a lei ainda exige que sejam transparentes quanto ao seu funcionamento, especialmente quando interagem diretamente com pessoas, para garantir que os usuários saibam quando estão lidando com IA e possam tomar decisões informadas. Alguns exemplos incluem:</p>
+</blockquote>
+<p>Chatbots e assistentes virtuais, que interagem com usuários sem tomar decisões com consequências jurídicas ou econômicas relevantes.</p>
+<p>Filtros de recomendação, como os usados em plataformas de streaming e comércio eletrônico, para sugerir conteúdos ou produtos com base em preferências do usuário.</p>
+<p>Ferramentas de edição de imagem e vídeo, que modificam conteúdos visuais sem comprometer direitos fundamentais.</p>
+<p>Jogos e aplicações recreativas, que utilizam IA para melhorar a experiência do usuário sem riscos significativos.</p>
+<h2 id="recomendacoes-e-boas-praticas">Recomendações e boas práticas<a class="headerlink" href="#recomendacoes-e-boas-praticas" title="Permanent link">&para;</a></h2>
+<p><a href="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/boas_c_1.png/view"><img alt="Boas Práticas 1" src="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/boas_c_1.png/@@images/41ac29e6-57ae-474e-ace5-e96b6da28950.png" /></a></p>
+<p>Cuidados com conteúdo e proteção de dados e informações</p>
+<p><a href="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/boas_c_2.png/view"><img alt="Boas Práticas 2" src="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/boas_c_2.png/@@images/77f88254-6ba3-43db-a6e2-439e157426d7.png" /></a></p>
+<p>Os "Três Comos" e boas práticas de tecnologia e segurança</p>
+<p>Ao lidar com IAG, é necessário adotar uma abordagem consciente para evitar riscos como o vazamento de dados sensíveis, disseminação de informações enganosas e interpretações equivocadas de resultados. Isso reflete um compromisso com a ética, a privacidade e a segurança, especialmente no contexto da administração pública. Para promover uma cultura de responsabilidade no uso dessas ferramentas, algumas regras básicas devem ser seguidas:</p>
+<p><strong>Evitar informações sensíveis:</strong> ao compartilhar informações sensíveis ou dados pessoais, lembre-se que a segurança desses dados depende de vários fatores. Consulte as políticas de privacidade dados sensíveis e pessoais e cuidado ao compartilhar tais informações.</p>
+<p><strong>Os três "Como" a considerar:</strong> </p>
+<blockquote>
+<p><strong>Como as perguntas serão usadas:</strong> evite inserir informações que você não compartilharia publicamente, considerando que a ferramenta aprende com os dados fornecidos.</p>
+<p><strong>Como as respostas podem ser enganosas:</strong>As respostas da IA, embora pareçam confiáveis, podem ser imprecisas ou derivadas de fontes não verificadas, exigindo validação rigorosa.</p>
+<p><strong>Como a IA funciona:</strong> ss respostas são geradas probabilisticamente, sem compreensão de contexto ou viés, necessitando interpretação criteriosa.</p>
+</blockquote>
+<p><strong>Consultas especializadas:</strong> servidores públicos devem buscar orientação de serviços jurídicos e especialistas em privacidade e segurança de dados e informações para decidir sobre o uso adequado dessas ferramentas.</p>
+<p><strong>Priorize Soluções Aprovadas:</strong> o servidor deve priorizar o uso de ferramentas de IAG disponibilizadas internamente pela instituição pois estas geralmente possuem recursos de segurança que mitigam riscos de vazamento de dados e informações sensíveis protegidas legalmente.</p>
+<p><strong>Revisão Humana Inegociável:</strong>  a IAG <strong>deve ser uma ferramenta auxiliar</strong>, não substituta, mantendo-se sempre o <strong>controle humano</strong> sobre o processo criativo e decisório. O usuário é o <strong>responsável integral</strong> por qualquer documento ou decisão produzida, com ou sem o uso da IAG. É crucial haver <strong>revisão crítica e criteriosa</strong> de todo conteúdo gerado pela IA, mesmo que ele pareça confiável, para garantir precisão e adequação.</p>
+<p><strong>Evite Decisões Estratégicas:</strong> não é recomendado o uso de IAG para <strong>tomada de decisões estratégicas</strong> ou para funções complexas como <strong>predição/previsão</strong> de cenários e dados que exijam análise humana profunda, devido aos riscos de erros, incertezas ou viés de automação.</p>
+<p><strong>Cuidados com o compartilhamento de informações oficiais:</strong> além do cuidado sobre a tomada de decisão estratégia, evite inserir dados sobre decisões oficiais de caráter sigiloso.</p>
+<p><strong>Conteúdo para o Público Externo:</strong> deve-se evitar o uso de IAG externa para a produção de conteúdo voltado ao público externo ou para o fornecimento de informações diretamente a ele, sem um processo rigoroso de revisão humana.</p>
+<p>A partir dessas regras iniciais, as seguintes orientações devem ser consideradas em relação a boas práticas:</p>
+<h3 id="revisao-institucional">Revisão Institucional<a class="headerlink" href="#revisao-institucional" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p><strong>O uso de IAG deve passar por revisão institucional, considerando os princípios éticos, os riscos e as melhores práticas definidos internamente pelo órgão.</strong></p>
+</blockquote>
+<p>Revisar o conteúdo gerado para garantir alinhamento com princípios institucionais. Analise a resposta dos prompts de IAG para garantir que eles atendam os padrões da Instituição quanto aos princípios éticos, de legalidade, e adequação.</p>
+<blockquote>
+<p><strong>Bom uso:</strong> Rever a resposta de IAG e ajustar para alinhamento com os valores institucionais antes da publicação.</p>
+<p><strong>Uso não aconselhável:</strong> Publicar diretamente conteúdos gerados, sem revisão, especialmente em temas sensíveis.</p>
+</blockquote>
+<p>Sempre avalie criteriosamente e revise o conteúdo gerado por IAG, ainda que a resposta pareça confiável.</p>
+<blockquote>
+<p><strong>Bom uso:</strong> Testar a IAG para gerar rascunhos e verificar cada ponto factual antes de aceitar o conteúdo respondido.</p>
+<p><strong>Uso não aconselhável:</strong> Aceitar respostas de IAG como verdadeiras sem verificá-las, principalmente em relação a tópicos técnicos ou científicos envolvendo operações matemáticas.</p>
+</blockquote>
+<h3 id="decisoes-automatizadas">Decisões Automatizadas<a class="headerlink" href="#decisoes-automatizadas" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p><strong>Decisões automatizadas pela IAG não devem ser adotadas sem revisão humana, principalmente quando usada para informar o público externo ou quando envolver decisões estratégicas.</strong></p>
+</blockquote>
+<p>Evite o uso sem validação e considere a capacidade de identificar imprecisões antes de usar a IAG.</p>
+<blockquote>
+<p><strong>Bom uso:</strong> Solicitar apoio de especialistas na validação de conteúdos gerados por IA antes de sua publicação.</p>
+<p><strong>Uso não aconselhável:</strong> Utilizar conteúdos técnicos complexos gerados por IA sem consultar especialistas na área.</p>
+</blockquote>
+<p>Sempre avalie criteriosamente e revise o conteúdo gerado por IAG, ainda que a resposta pareça confiável.</p>
+<blockquote>
+<p><strong>Bom uso:</strong> Testar a IA para gerar rascunhos e verificar cada ponto factual antes de aceitar o conteúdo respondido.</p>
+<p><strong>Uso não aconselhável:</strong> Aceitar respostas de IA como verdadeiras sem verificá-las, principalmente em relação a tópicos técnicos ou científicos envolvendo operações matemáticas.</p>
+</blockquote>
+<h3 id="conduta-institucional">Conduta Institucional<a class="headerlink" href="#conduta-institucional" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p><strong>O uso de IAG deve estar alinhado com o código de conduta institucional e as políticas de não discriminação, garantindo que o conteúdo seja apropriado e não discriminatório.</strong></p>
+</blockquote>
+<p>Avaliar o conteúdo da resposta da IA para garantir que não discrimine indivíduos com base em raça, cor, religião, sexo, nacionalidade, idade, deficiência, estado civil, afiliação política ou orientação sexual.</p>
+<blockquote>
+<p><strong>Bom uso:</strong> Usar IA para criar descrições inclusivas, validando que a linguagem não perpetue estereótipos.</p>
+<p><strong>Uso não aconselhável:</strong> Utilizar conteúdo sem avaliação, resultando em mensagens discriminatórias
+ou tendenciosas.</p>
+</blockquote>
+<h3 id="conteudo-inapropriado">Conteúdo Inapropriado<a class="headerlink" href="#conteudo-inapropriado" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p><strong>Para proteger servidores, cidadãos e a instituição, recomenda-se evitar o uso de conteúdo criado pela IA que seja inapropriado, discriminatório, incorreto ou prejudicial.</strong></p>
+</blockquote>
+<p>Revisar o conteúdo gerado para garantir alinhamento com princípios institucionais. Analise a resposta dos prompts de IAG para garantir que eles atendam os padrões da Instituição quanto aos princípios éticos, de legalidade, e adequação.</p>
+<blockquote>
+<p><strong>Bom uso:</strong> Rever a resposta de IAG e ajustar para alinhamento com os valores institucionais antes da publicação.</p>
+<p><strong>Uso não aconselhável:</strong> Publicar diretamente conteúdos gerados, sem revisão, especialmente em temas sensíveis.</p>
+</blockquote>
+<p>Avaliar o conteúdo da resposta da IA para garantir que não discrimine indivíduos com base em raça, cor, religião, sexo, nacionalidade, idade, deficiência, estado civil, afiliação política ou orientação sexual.</p>
+<blockquote>
+<p><strong>Bom uso:</strong> Usar IA para criar descrições inclusivas, validando que a linguagem não perpetue estereótipos.</p>
+<p><strong>Uso não aconselhável:</strong> Utilizar conteúdo sem avaliação, resultando em mensagens discriminatórias ou tendenciosas.</p>
+</blockquote>
+<p>Sempre avalie criteriosamente e revise o conteúdo gerado por IAG, ainda que a resposta pareça confiável.</p>
+<blockquote>
+<p><strong>Bom uso:</strong> Testar a IA para gerar rascunhos e verificar cada ponto factual antes de aceitar o conteúdo respondido.</p>
+<p><strong>Uso não aconselhável:</strong> Aceitar respostas de IA como verdadeiras sem verificá-las, principalmente em relação a tópicos técnicos ou científicos envolvendo operações matemáticas.</p>
+</blockquote>
+<h3 id="responsabilidade-do-servidor">Responsabilidade do Servidor<a class="headerlink" href="#responsabilidade-do-servidor" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p><strong>A responsabilidade do servidor sobre qualquer documento produzido, com ou sem IAG, permanece inalterada. O uso inadequado de IAG não exime o servidor de revisar e assumir a autoria plena do resultado..</strong></p>
+</blockquote>
+<p>Identificar a resposta gerada pela IA, sem prejuízo da responsabilização do servidor.</p>
+<blockquote>
+<p><strong>Bom uso:</strong> Incluir no rodapé de um documento institucional a observação: “Parte do conteúdo foi gerado com o auxílio de IA.”</p>
+<p><strong>Uso não aconselhável:</strong> Apresentar conteúdo gerado por IA como criação exclusiva de autores humanos, sem a devida transparência.</p>
+</blockquote>
+<p>Sempre avalie criteriosamente e revise o conteúdo gerado por IAG, ainda que a resposta pareça confiável.</p>
+<blockquote>
+<p><strong>Bom uso:</strong> Testar a IAG para gerar rascunhos e verificar cada ponto factual antes de aceitar o conteúdo respondido.</p>
+<p><strong>Uso não aconselhável:</strong> Aceitar respostas de IAG como verdadeiras sem verificá-las, principalmente em relação a tópicos técnicos ou científicos envolvendo operações matemáticas.</p>
+</blockquote>
+<h3 id="uso-de-credenciais">Uso de Credenciais<a class="headerlink" href="#uso-de-credenciais" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p><strong>Recomenda-se evitar o uso de endereços de e-mail, credenciais e números de telefone do órgão ou entidade para criar contas em plataformas externas de IAG, prevenindo a ligação entre uso pessoal e trabalho institucional.</strong></p>
+</blockquote>
+<p>Não use credenciais da instituição, endereços de e-mail ou números de telefone como login para aplicativos de IAG disponíveis publicamente.</p>
+<blockquote>
+<p><strong>Bom uso:</strong> Criar contas usando credenciais genéricas, desvinculadas da instituição, para experimentação em IAG.</p>
+<p><strong>Uso não aconselhável:</strong> Usar o e-mail institucional para acessar um serviço de IA, como o ChatGPT ou qualquer prompt semelhante, sem a devida aprovação.</p>
+</blockquote>
+<h3 id="dados-protegidos">Dados Protegidos<a class="headerlink" href="#dados-protegidos" title="Permanent link">&para;</a></h3>
+<blockquote>
+<p><strong>Para proteger informações sensíveis e confidenciais, incluindo dados protegidos por lei e propriedade intelectual, é indicado que servidores e prestadores de serviços utilizem apenas soluções de IAG aprovadas pelo órgão.</strong></p>
+</blockquote>
+<p>Não insira informações internas da instituição em aplicativos de IAG que não seja uma solução aprovada.</p>
+<blockquote>
+<p><strong>Bom uso:</strong> Solicitar sugestões de estratégias de gerenciamento genéricas, sem mencionar nomes de projetos ou informações específicas da instituição.</p>
+<p><strong>Uso não aconselhável:</strong> Compartilhar detalhes de contratos, projetos em andamento ou políticas internas ao solicitar sugestões.</p>
+</blockquote>
+<p>Não insira informações pessoais de servidores, cidadãos ou terceiros em aplicativos de IAG não aprovados.</p>
+<blockquote>
+<p><strong>Bom uso:</strong> Usar informações fictícias ou simuladas para criar exemplos ou cenários durante testes com IA.</p>
+<p><strong>Uso não aconselhável:</strong>ornecer dados reais de servidores, como CPF ou informações de saúde, para obtenção de insights.</p>
+</blockquote>
+<p>Garanta que os conteúdos gerados respeitem direitos autorais e de propriedade intelectual.</p>
+<blockquote>
+<p><strong>Bom uso:</strong> Solicitar à IA conteúdo genérico e verificar sua originalidade antes de incorporá-lo a materiais oficiais.</p>
+<p><strong>Uso não aconselhável:</strong>Usar trechos gerados por IA sem verificar se são plágios ou violações de direitos autorais.</p>
+</blockquote>
+<p>Diante das regras e boas práticas apresentadas, alguns exemplos de utilização das ferramentas de IAG são:</p>
+<p><strong>Elaboração e Revisão de Documentos:</strong> Ajuda na redação de relatórios, comunicados e documentos oficiais, além de revisão gramatical, estilística e tradução de textos.</p>
+<p><strong>Resumo de Textos:</strong> Transformar grandes volumes de texto em resumos claros e diretos.</p>
+<p><strong>Consulta a Normas:</strong> Facilitar o acesso e a interpretação de leis e regulamentos.</p>
+<p><strong>Geração de Conteúdo Multimídia (com cautela):</strong> Pode criar imagens, áudios ou vídeos, mas o servidor deve agir com cautela e responsabilidade, especialmente no que diz respeito a deepfakes (simulação de pessoas reais).</p>
+<h2 id="alguns-exemplos-de-uso-de-ia-no-setor-publico-brasileiro">Alguns exemplos de uso de IA no setor público brasileiro<a class="headerlink" href="#alguns-exemplos-de-uso-de-ia-no-setor-publico-brasileiro" title="Permanent link">&para;</a></h2>
+<p>Seguem alguns exemplos de aplicação:</p>
+<h3 id="controladoria-geral-da-uniao-cgu">Controladoria-Geral da União (CGU)<a class="headerlink" href="#controladoria-geral-da-uniao-cgu" title="Permanent link">&para;</a></h3>
+<p>Criou a ferramenta <strong>Alice</strong>, baseada em mineração de texto e inteligência artificial.</p>
+<p>Analisa licitações públicas para identificar <strong>possíveis inconsistências</strong>.</p>
+<p>Emite <strong>alertas de risco</strong>, por exemplo, quando detecta indícios de <strong>pesquisa de preços com valores excessivos.</strong></p>
+<p>Objetivo: <strong>apoiar o trabalho dos auditores</strong> na detecção de irregularidades.</p>
+<h2 id="para-saber-mais">Para saber mais<a class="headerlink" href="#para-saber-mais" title="Permanent link">&para;</a></h2>
+<p>Diversas iniciativas ao redor do mundo têm documentado e disponibilizado casos de uso de Inteligência Artificial no setor público. A seguir, alguns repositórios e observatórios que reúnem experiências práticas e bases de conhecimento sobre o tema:</p>
+<p><strong>União Europeia</strong> – <a href="https://interoperable-europe.ec.europa.eu/collection/public-sector-tech-watch">Public Sector Tech Watch (PSTW)</a></p>
+<p>Observatório que monitora, analisa e divulga o uso de tecnologias emergentes, como IA e blockchain, no setor público europeu.</p>
+<p><strong>América Latina e Caribe</strong> – <a href="https://sistemaspublicos.tech/sistemas-de-ia-en-america-latina/">Sistemas de Algoritmos Públicos</a></p>
+<p>Projeto acadêmico da Universidade dos Andes (Colômbia) que mapeia e analisa iniciativas de uso de sistemas algorítmicos por governos da região.</p>
+<p><strong>Estados Unidos</strong> – <a href="https://www.cio.gov/policies-and-priorities/Executive-Order-13960-AI-Use-Case-Inventories-Reference/">Inventário de Casos de Uso de IA</a></p>
+<p>Repositório mantido pelo Office of Management and Budget e o Chief Information Officer dos EUA, com mais de 1.700 usos de IA em agências federais.</p>
+<p><strong>Reino Unido</strong> – <a href="https://ai.gov.uk/knowledge-hub/use-cases">AI.gov.uk – Knowledge Hub</a></p>
+<p>Portal do governo britânico que apresenta casos de uso de IA, incluindo ferramentas e soluções de código aberto aplicadas à administração pública.</p>
+<p>Essas plataformas são ótimos pontos de partida para quem deseja se inspirar, comparar abordagens ou buscar referências para novas iniciativas com uso de inteligência artificial no setor público.</p>
+<h2 id="criterios-de-escolha-de-ferramentas">Critérios de Escolha de Ferramentas<a class="headerlink" href="#criterios-de-escolha-de-ferramentas" title="Permanent link">&para;</a></h2>
+<p>A escolha da ferramenta deve ser guiada pela <strong>confidencialidade dos dados</strong> a serem tratados e pelo nível de controle e auditabilidade que o órgão público precisa exercer sobre o sistema.</p>
+<h3 id="ferramentas-internaslocais-aprovadas">Ferramentas Internas/Locais (Aprovadas)<a class="headerlink" href="#ferramentas-internaslocais-aprovadas" title="Permanent link">&para;</a></h3>
+<p><strong>Recomendação:</strong> Priorize as soluções internas (locais) ou aquelas fornecidas por terceiros, mas foram <strong>aprovadas pela unidade executiva de TI</strong> do órgão, como o ChatTCU ou CopilotTCU (no contexto do Tribunal de Contas da União), pois estas geralmente possuem recursos de segurança que mitigam riscos de vazamento de dados e informações sensíveis protegidas legalmente.</p>
+<p><strong>Vantagem Principal:</strong> Tais soluções são projetadas para <strong>manter a confidencialidade das informações sigilosas</strong> da instituição e cumprem os requisitos de segurança definidos em normativos internos.</p>
+<h3 id="ferramentas-externascomerciais-fechadas-ou-em-nuvem">Ferramentas Externas/Comerciais (Fechadas ou em Nuvem)<a class="headerlink" href="#ferramentas-externascomerciais-fechadas-ou-em-nuvem" title="Permanent link">&para;</a></h3>
+<p><strong>Risco Elevado:</strong> As plataformas externas de IAG (como ChatGPT, Gemini, Copilot, etc.) são fornecidas por terceiros e geralmente são consideradas "caixas-pretas" com relação à transparência de seus modelos e uso de dados.</p>
+<p><strong>Governança de Dados:</strong> Deve-se consultar a política de segurança do órgão. Se a ferramenta externa salva, usa posteriormente ou compartilha os dados recebidos para treinar seu modelo, ela não deve ser usada para tratar dados protegidos.</p>
+<p><strong>Privacidade:</strong> Muitos modelos aproveitam as interações dos usuários para treinamento de seus sistemas, o que implica que os dados disponibilizados podem se tornar parte de conjuntos de dados futuros.</p>
+<h3 id="software-livre-e-codigo-aberto-open-source">Software Livre e Código Aberto (Open Source)<a class="headerlink" href="#software-livre-e-codigo-aberto-open-source" title="Permanent link">&para;</a></h3>
+<p><strong>Transparência:</strong> Modelos de código aberto (open source) promovem maior transparência, pois seus parâmetros e arquitetura são disponibilizados publicamente.</p>
+<p><strong>Exceção à Transparência:</strong> Prestadores de modelos de IAG lançados sob licença gratuita e de código aberto podem ser isentos de certos requisitos de transparência, a menos que o modelo apresente riscos sistêmicos. Mesmo assim, a obrigação de elaborar um resumo dos conteúdos usados no treino e cumprir a legislação de direitos autorais permanece.</p>
+<h3 id="cuidados-com-o-compartilhamento-de-informacoes-oficiais">Cuidados com o Compartilhamento de Informações Oficiais<a class="headerlink" href="#cuidados-com-o-compartilhamento-de-informacoes-oficiais" title="Permanent link">&para;</a></h3>
+<p>A cautela é fundamental, pois o vazamento ou compartilhamento irregular de dados sensíveis, restritos ou sigilosos pode gerar <strong>danos críticos aos cidadãos e à reputação da instituição.</strong></p>
+<p><strong>Não Insira Dados Pessoais ou Pessoais Sensíveis:</strong> Nunca forneça dados pessoais ou pessoais sensíveis de terceiros (saúde, etnia, religião, opinião política) a ferramentas de IAG. Se o uso for inevitável, utilize informações anonimizadas.</p>
+<p><strong>Proteção de Dados do Órgão:</strong> Não insira <strong>informações internas, restritas ou sigilosas</strong> do órgão em aplicativos externos de IAG.</p>
+<p><strong>Credenciais Institucionais:</strong> Evite usar e-mails, números de telefone ou credenciais institucionais para criar contas em plataformas externas de IAG. Essa prática ajuda a proteger a segurança dos dados da instituição.</p>
+<p><strong>Evitar Agregação de Dados:</strong> Evite inserir informações que permitam às ferramentas públicas <strong>extrapolar informações confidenciais ou classificadas</strong> com base na agregação do conteúdo inserido ao longo do tempo.</p>
+<h3 id="instrucoes-para-prompts">Instruções para Prompts<a class="headerlink" href="#instrucoes-para-prompts" title="Permanent link">&para;</a></h3>
+<p>Orientações sobre criaçãoo de instruções (prompts) para uso de ferramentas de IA generativa estão disponíveis no Guia Pratico de Prompt e Pesquisa com IA para Servidores Publicos, publicado pela SGD/MGI: <a href="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1/publicacoes/guia-pratico-de-prompt-e-pesquisa-com-ia-para-servidores-publicos/">Guia prático de prompt e pesquisa com IA para servidores públicos — Governo Digital.</a></p>
+<h3 id="governanca-de-dados">Governança de Dados<a class="headerlink" href="#governanca-de-dados" title="Permanent link">&para;</a></h3>
+<p>As informações do Governo Federal sobre o conjunto de políticas, normas, padrões e práticas que orientam, monitoram e avaliam a gestão e o uso dos dados, para assegurar que sejam utilizados de maneira ética, segura e eficiente, atendendo às necessidades institucionais e regulatórias estão disponíveis na página de <a href="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/governancadedados">Governança de Dados — Governo Digital.</a></p>
+<h2 id="competencias-digitais-e-capacitacao-de-servidores">Competências Digitais e Capacitação de Servidores<a class="headerlink" href="#competencias-digitais-e-capacitacao-de-servidores" title="Permanent link">&para;</a></h2>
+<p>O uso crescente da IAG na Administração Pública exige que os servidores desenvolvam a <strong>Alfabetização em IA (AI Literacy)</strong> e mantenham o <strong>pensamento crítico</strong>. Esta alfabetização inclui competências, conhecimento e compreensão que permitem aos usuários tomar decisões informadas, estando cientes das oportunidades, dos riscos e das limitações da IA.</p>
+<p>O letramento em IA é essencial para que os servidores mantenham seu protagonismo no processo científico, utilizando a IA como ferramenta de apoio, mas <strong>sem comprometer sua capacidade crítica e criativa</strong>. O desenvolvimento dessas habilidades deve capacitar o servidor a:</p>
+<h3 id="revisao-critica">Revisão Crítica<a class="headerlink" href="#revisao-critica" title="Permanent link">&para;</a></h3>
+<p>O usuário deve <strong>sempre avaliar e revisar criteriosamente</strong> todo o conteúdo gerado pela IAG, mesmo que pareça confiável, pois a IA não se baseia em uma compreensão real de contexto ou significado. O servidor é o responsável integral por qualquer documento ou decisão final. A colaboração homem-máquina busca aliar a eficiência e a velocidade da IA com o julgamento crítico, o discernimento ético e a responsabilidade legal do ser humano. O ser humano é o elemento de validação final que garante que a tecnologia seja usada de forma justa e alinhada aos valores da administração pública.</p>
+<h3 id="identificacao-de-falhas-alucinacoes-e-vieses">Identificação de Falhas (Alucinações e Vieses)<a class="headerlink" href="#identificacao-de-falhas-alucinacoes-e-vieses" title="Permanent link">&para;</a></h3>
+<p>O servidor deve ser capaz de identificar as <strong>"alucinações"</strong> (respostas factualmente incorretas, mas convincentes) e os <strong>vieses</strong> (tendências nos dados de treinamento que influenciam resultados). Os vieses podem levar a <strong>discriminações</strong> contra grupos sub-representados.</p>
+<h3 id="literacia-em-ia">Literacia em IA<a class="headerlink" href="#literacia-em-ia" title="Permanent link">&para;</a></h3>
+<p>É fundamental <strong>educar as equipes sobre as capacidades e limitações</strong> da IAG. A excelência dos resultados da IA depende da qualidade dos dados utilizados no treinamento.</p>
+<p>Sob esta perspectiva, é possível encontrar cursos de capacitação dos servidores públicos em IA de acordo com os perfis dos cargos que ocupam no link: <a href="https://www.gov.br/governodigital/pt-br/infraestrutura-nacional-de-dados/inteligencia-artificial-1">Inteligência Artificial — Governo Digital</a> , com programas de diversos níveis de conhecimento.</p>
+<h2 id="consideracoes-finais">Considerações finais<a class="headerlink" href="#consideracoes-finais" title="Permanent link">&para;</a></h2>
+<p>Este texto preliminar estabelece os fundamentos e princípios gerais para as boas práticas do uso da Inteligência Artificial generativa no âmbito da administração pública federal. Os pontos visam proteger contra vazamentos de dados, garantir a confidencialidade das informações sigilosas, evitar violações de propriedade intelectual, assegurar a segurança de servidores e cidadãos, prevenir danos à reputação da instituição, mitigar viés de modelos automatizados e evitar infrações de direitos autorais. O cumprimento das orientações desta cartilha contribui para o uso seguro e responsável de sistemas de IA no âmbito da administração publica federal, em conformidade com a legislação vigente.</p>
+<p>Toda solução baseada em IA deve considerar a segurança da informação como prioridade, especialmente quando envolve dados sensíveis ou atividades críticas do Estado. A privacidade dos dados pessoais também deve ser respeitada rigorosamente, conforme os princípios da Lei Geral de Proteção de Dados (LGPD) e as boas práticas estabelecidas por órgãos como a ANPD e a CGU. O compartilhamento inadequado de informações pessoais ou sensíveis com sistemas de IA pode não apenas comprometer a segurança institucional, mas também resultar em responsabilização legal e disciplinar dos agentes envolvidos.</p>
+<p>Outro aspecto essencial é a supervisão humana. Mesmo em sistemas altamente automatizados, a responsabilidade final sobre decisões, ações e interpretações continua sendo do servidor público. A IA deve ser entendida como uma ferramenta de apoio. Ela pode ampliar a capacidade humana de agir com mais agilidade e inteligência, mas nunca substitui o julgamento ou a responsabilidade de quem a utiliza.</p>
+<p>Além dos sistemas institucionais, muitos servidores têm buscado experimentar individualmente ferramentas de IA para melhorar sua produtividade, como na redação de textos, tradução, organização de tarefas ou resumo de conteúdos. Esse uso pode ser positivo, desde que feito com cautela. É fundamental que o servidor não compartilhe dados sensíveis, informações sigilosas ou documentos institucionais com essas plataformas, especialmente quando operam em ambientes externos e não homologados pelo órgão. E, independentemente da ferramenta usada, os conteúdos gerados devem sempre ser analisados criticamente, já que a responsabilidade pelas ações administrativas permanece com o servidor.</p>
+<p>Também é importante lembrar que o uso de IA deve ser feito com propósito claro e justificado. Adotar essa tecnologia apenas por modismo ou sem uma necessidade concreta pode resultar em desperdício de recursos, aumento desnecessário da complexidade e baixa efetividade. Toda iniciativa com IA deve considerar o equilíbrio entre custos e benefícios, avaliando se os ganhos realmente justificam o investimento, o esforço de implantação e os riscos envolvidos. Esses riscos não se limitam a falhas técnicas ou imprecisões. Podem envolver vieses nos dados, decisões injustas, falta de transparência nos resultados e impacto negativo sobre pessoas ou grupos vulneráveis. Quanto maior o nível de automação, maior deve ser o cuidado na definição de regras, na curadoria de dados e na validação contínua do sistema.</p>
+<p>Outro fator relevante é o impacto ambiental associado ao uso de sistemas de IA, especialmente os mais avançados. O treinamento e operação de modelos complexos consomem grandes volumes de água, energia e demandam recursos computacionais significativos. Por isso, também é essencial avaliar a sustentabilidade das soluções desde a fase de planejamento, optando por abordagens mais eficientes sempre que possível.</p>
+<p>Por fim, o desenvolvimento e uso de soluções de IA devem estar alinhados a princípios éticos amplamente reconhecidos. A Recomendação da UNESCO sobre a Ética da Inteligência Artificial estabelece diretrizes para que a adoção dessas tecnologias respeite valores universais e direitos fundamentais. O documento enfatiza a importância da transparência, da proteção à privacidade, da justiça algorítmica, da não discriminação, da inclusão e da explicabilidade das decisões automatizadas. Também reforça que o uso de IA deve ser centrado nas pessoas, contribuindo para o bem-estar coletivo, a equidade e o desenvolvimento sustentável.</p>
+<p>Esses princípios devem servir de base para orientar políticas públicas, regulamentações, desenvolvimento de soluções e capacitação de servidores. Incorporar esses valores desde a concepção dos projetos é essencial para que a IA seja aplicada de forma segura, confiável e compatível com os objetivos do Estado democrático.</p>
+<p>Este guia foi elaborado no âmbito do Plano Brasileiro de Inteligência Artificial (PBIA), com contribuição técnica da SGD/MGI, SERPRO, Casa Civil, MCTI, ENAP e Dataprev."</p>
+<h2 id="referencias">Referências<a class="headerlink" href="#referencias" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>AMÉRICA LATINA E CARIBE. Sistemas de Algoritmos Públicos – Universidade dos Andes. Disponível em:  <br />
+<a href="https://sistemaspublicos.tech/sistemas-de-ia-en-america-latina/">https://sistemaspublicos.tech/sistemas-de-ia-en-america-latina/.</a> Acesso em: 07 out. 2025.</p>
+</li>
+<li>
+<p>AUSTRALIAN GOVERNMENT ARCHITECTURE. Interim guidance on government use of public generative AI tools. November 2023. Disponível em: <a href="https://architecture.digital.gov.au/guidance-generative-ai">https://architecture.digital.gov.au/guidance-generative-ai</a>. Acesso em: 31 jan. 2025.</p>
+</li>
+<li>
+<p>BRASIL. Receita Federal. Instrução Normativa RFB nº 2.134, de 10 de março de 2023. Disponível em: <a href="http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=138693">http://normas.receita.fazenda.gov.br/sijut2consulta/link.action?idAto=138693</a>. Acesso em: 31 jan. 2025.</p>
+</li>
+<li>
+<p>BRASIL. Projeto de Lei n° 2338, de 2023. Autoria: Senador Rodrigo Pacheco (PSD/MG). Disponível em: <a href="https://www25.senado.leg.br/web/atividade/materias/-/materia/157233">https://www25.senado.leg.br/web/atividade/materias/-/materia/157233</a>. Acesso em: 31 jan. 2025.</p>
+</li>
+<li>
+<p>BRASIL. Autoridade Nacional de Proteção de Dados. Radar Tecnológico: Inteligência Artificial Generativa. Disponível em: <a href="https://www.gov.br/anpd/pt-br/centrais-de-conteudo/documentos-tecnicos-orientativos/radar_tecnologico_ia_generativa_anpd.pdf">https://www.gov.br/anpd/pt-br/centrais-de-conteudo/documentos-tecnicos-orientativos/radar_tecnologico_ia_generativa_anpd.pdf</a>. Acesso em: 31 jan. 2025.</p>
+</li>
+<li>
+<p>BRASIL. Tribunal de Contas da União. Guia de uso de inteligência artificial generativa no Tribunal de Contas da União (TCU). Disponível em: <a href="https://portal.tcu.gov.br/data/files/42/F7/91/4B/B59019105E366F09E18818A8/Guia%20de%20uso%20de%20IA%20generativa%20no%20TCU.pdf">https://portal.tcu.gov.br/data/files/42/F7/91/4B/B59019105E366F09E18818A8/Guia%20de%20uso%20de%20IA%20generativa%20no%20TCU.pdf</a> .Acesso em: 31 jan. 2025.</p>
+</li>
+<li>
+<p>BRASIL. Controladoria-Geral da União (CGU). Guia de Uso Responsável de Inteligência Artificial. Brasília: CGU, 2024. Disponível em: <a href="https://repositorio.cgu.gov.br/bitstream/1/94244/2/Guia_de_uso_responsavel_de_IA_v5_publicacao.pdf">https://repositorio.cgu.gov.br/bitstream/1/94244/2/Guia_de_uso_responsavel_de_IA_v5_publicacao.pdf</a>. Acesso em: 31 jan. 2025.</p>
+</li>
+<li>
+<p>CANADA. Guide on the Use of Generative AI. Disponível em: <a href="https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/guide-use-generative-ai.html">https://www.canada.ca/en/government/system/digital-government/digital-government-innovations/responsible-use-ai/guide-use-generative-ai.html</a>. Acesso em: 31 jan. 2025.</p>
+</li>
+<li>
+<p>CHATTCU – TRIBUNAL DE CONTAS DA UNIÃO. Uso de inteligência artificial aprimora processos internos no TCU. Disponível em: <a href="https://revista.tcu.gov.br/ojs/index.php/RTCU/article/view/2114/1966">https://revista.tcu.gov.br/ojs/index.php/RTCU/article/view/2114/1966</a>  <br />
+<a href="https://portal.tcu.gov.br/imprensa/noticias/uso-de-inteligencia-artificial-aprimora-processos-internos-no-tribunal-de-contas-da-uniao.">https://portal.tcu.gov.br/imprensa/noticias/uso-de-inteligencia-artificial-aprimora-processos-internos-no-tribunal-de-contas-da-uniao.</a> Acesso em: 07 out. 2025.</p>
+</li>
+<li>
+<p>ESTADOS UNIDOS. AI Use Case Inventories – Office of Management and Budget / CIO</p>
+</li>
+</ol>
+<p>Disponível em:  <br />
+<a href="https://github.com/ombegov/2024-Federal-AI-Use-Case-Inventory">https://github.com/ombegov/2024-Federal-AI-Use-Case-Inventory</a>  <br />
+<a href="https://www.cio.gov/policies-and-priorities/Executive-Order-13960-AI-Use-Case-Inventories-Reference/">https://www.cio.gov/policies-and-priorities/Executive-Order-13960-AI-Use-Case-Inventories-Reference/.</a> Acesso em: 07 out. 2025.</p>
+<ol>
+<li>
+<p>IA LEGIS – MGI E SERPRO. Ferramenta para facilitar busca por legislação de pessoal <br />
+    Disponível em:  <a href="https://www.gov.br/servidor/pt-br/assuntos/noticias/2025/marco/mgi-e-serpro-lancam-nova-ferramenta-para-facilita-busca-por-legislacao-de-pessoal">https://www.gov.br/servidor/pt-br/assuntos/noticias/2025/marco/mgi-e-serpro-lancam-nova-ferramenta-para-facilita-busca-por-legislacao-de-pessoal</a>     <br />
+<a href="https://legis.sigepe.gov.br/legis/chat-legis.">https://legis.sigepe.gov.br/legis/chat-legis.</a> Acesso em: 07 out. 2025.</p>
+</li>
+<li>
+<p>OCDE - Framework para Classificação de Sistemas de IA. Disponível em:  <br />
+<a href="https://www.oecd.org/en/publications/oecd-framework-for-the-classification-of-ai-systems_cb6d9eca-en.html.">https://www.oecd.org/en/publications/oecd-framework-for-the-classification-of-ai-systems_cb6d9eca-en.html.</a> Acesso em: 07 out. 2025.</p>
+</li>
+<li>
+<p>Reino Unido. AI.gov.uk – Knowledge Hub. Disponível em: <a href="https://ai.gov.uk/knowledge-hub/use-cases.">https://ai.gov.uk/knowledge-hub/use-cases.</a> Acesso em: 07 out. 2025.</p>
+</li>
+<li>
+<p>SEI IA – Agência Nacional de Telecomunicações (Anatel) <br />
+    Inteligência artificial no Sistema Eletrônico de Informações. Disponível em:  <br />
+<a href="https://www.gov.br/anatel/pt-br/assuntos/noticias/anatel-inova-com-inteligencia-artificial-no-sistema-eletronico-de-informacoes">https://www.gov.br/anatel/pt-br/assuntos/noticias/anatel-inova-com-inteligencia-artificial-no-sistema-eletronico-de-informacoes</a>  <br />
+    Código-fonte: <a href="https://github.com/anatelgovbr/sei-ia.">https://github.com/anatelgovbr/sei-ia.</a> Acesso em: 07 out. 2025.</p>
+</li>
+<li>
+<p>UNESCO. Recomendação sobre a Ética da Inteligência Artificial. Disponível em:  <br />
+<a href="https://unesdoc.unesco.org/ark:/48223/pf0000381137_por.">https://unesdoc.unesco.org/ark:/48223/pf0000381137_por.</a> Acesso em: 07 out. 2025.</p>
+</li>
+<li>
+<p>UNIÃO EUROPEIA. Public Sector Tech Watch (PSTW). Disponível em:  <br />
+<a href="https://interoperable-europe.ec.europa.eu/collection/public-sector-tech-watch.">https://interoperable-europe.ec.europa.eu/collection/public-sector-tech-watch.</a> Acesso em: 07 out. 2025.</p>
+</li>
+<li>
+<p>UNITED KINGDOM. Guidance to civil servants on use of generative AI. Disponível em: <a href="https://www.gov.uk/government/publications/guidance-to-civil-servants-on-use-of-generative-ai/guidance-to-civil-servants-on-use-of-generative-ai">https://www.gov.uk/government/publications/guidance-to-civil-servants-on-use-of-generative-ai/guidance-to-civil-servants-on-use-of-generative-ai</a>. Acesso em: 31 jan. 2025.</p>
+</li>
+</ol>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.top", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>

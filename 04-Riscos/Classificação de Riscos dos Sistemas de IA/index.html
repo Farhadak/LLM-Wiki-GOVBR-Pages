@@ -1,0 +1,2627 @@
+
+<!doctype html>
+<html lang="pt" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="Base de conhecimento editorial derivada do Guia de Inteligência Artificial Generativa do Governo Federal. Publicação beta, com revisão humana e jurídica pendentes.">
+      
+      
+      
+      
+        <link rel="prev" href="../Alucina%C3%A7%C3%B5es%20na%20IA%20Generativa/">
+      
+      
+        <link rel="next" href="../Riscos/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Classificação de Riscos dos Sistemas de IA - Wiki de IA Generativa na Administração Pública</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    <body dir="ltr">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#classificacao-de-riscos-dos-sistemas-de-ia" class="md-skip">
+          Pular para conteúdo
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabeçalho">
+    <a href="../.." title="Wiki de IA Generativa na Administração Pública" class="md-header__button md-logo" aria-label="Wiki de IA Generativa na Administração Pública" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Wiki de IA Generativa na Administração Pública
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Classificação de Riscos dos Sistemas de IA
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Buscar" placeholder="Buscar" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Pesquisar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpar" aria-label="Limpar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+        <div class="md-search__suggest" data-md-component="search-suggest"></div>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando busca
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegação" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Wiki de IA Generativa na Administração Pública" class="md-nav__button md-logo" aria-label="Wiki de IA Generativa na Administração Pública" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Wiki de IA Generativa na Administração Pública
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LLM Wiki GOV.BR
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-revisao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    00 Inicio
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    00 Inicio
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../00-Inicio/INDEX/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LLM Wiki GOV.BR
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-revisao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    01 Fontes
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    01 Fontes
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-Fontes/FONTE-001/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia de Inteligência Artificial Generativa - Governo Federal
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--capturada-validacao-pendente"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-Fontes/PROVENIENCIA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PROVENIENCIA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../01-Fontes/guia-ia-generativa-normalizado/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Guia ia generativa normalizado
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    02 Fundamentos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    02 Fundamentos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Fundamentos/Fundamentos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fundamentos
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-construcao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Fundamentos/Gera%C3%A7%C3%A3o%20Aumentada%20via%20Recupera%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Geração Aumentada via Recuperação
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Fundamentos/Grandes%20Modelos%20de%20Linguagem/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grandes Modelos de Linguagem
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../02-Fundamentos/Intelig%C3%AAncia%20Artificial%20Generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inteligência Artificial Generativa
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    03 Governanca
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    03 Governanca
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Governanca/Governan%C3%A7a%20e%20Prote%C3%A7%C3%A3o%20de%20Dados%20na%20IA%20Generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Governança e Proteção de Dados na IA Generativa
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Governanca/Governan%C3%A7a/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Governança
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-construcao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Governanca/Supervis%C3%A3o%20Humana%20e%20Responsabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Supervisão Humana e Responsabilidade
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Governanca/Transpar%C3%AAncia%20e%20Auditabilidade%20da%20IA%20Generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Transparência e Auditabilidade da IA Generativa
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../03-Governanca/%C3%89tica%20e%20Princ%C3%ADpios%20da%20IA%20Generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ética e Princípios da IA Generativa
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    04 Riscos
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    04 Riscos
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Alucina%C3%A7%C3%B5es%20na%20IA%20Generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alucinações na IA Generativa
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classificação de Riscos dos Sistemas de IA
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Classificação de Riscos dos Sistemas de IA
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-objetivo-e-escopo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Objetivo e escopo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-origem-da-classificacao-no-guia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Origem da classificação no guia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-risco-excessivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Risco excessivo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-alto-risco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Alto risco
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-risco-moderado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Risco moderado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-baixo-risco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Baixo risco
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-distincao-entre-risco-e-obrigacao-juridica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Distinção entre risco e obrigação jurídica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-analise-critica-elaboracao-editorial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Análise crítica — elaboração editorial
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-medidas-de-governanca-proposta-editorial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Medidas de governança — proposta editorial
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-conexoes-com-a-wiki" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Conexões com a Wiki
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-rastreabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Rastreabilidade
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Riscos/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Riscos
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-construcao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Vieses%20na%20IA%20Generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Vieses na IA Generativa
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    05 Regulamentacao
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    05 Regulamentacao
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Regulamentacao/LGPD%20e%20Prote%C3%A7%C3%A3o%20de%20Dados%20na%20IA%20Generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    LGPD e Proteção de Dados na IA Generativa
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Regulamentacao/Marco%20Legal%20da%20Intelig%C3%AAncia%20Artificial%20no%20Brasil/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Marco Legal da Inteligência Artificial no Brasil
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Regulamentacao/Normas%20e%20Orienta%C3%A7%C3%B5es%20Institucionais%20para%20IA%20Generativa/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Normas e Orientações Institucionais para IA Generativa
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../05-Regulamentacao/Regulamenta%C3%A7%C3%A3o/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Regulamentação
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-construcao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    06 Boas Praticas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    06 Boas Praticas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-Boas-Praticas/Boas%20Pr%C3%A1ticas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Boas Práticas
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-construcao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-Boas-Praticas/Compet%C3%AAncias%20Digitais%20e%20Literacia%20em%20IA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Competências Digitais e Literacia em IA
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-construcao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-Boas-Praticas/Conduta%20Institucional%20e%20Responsabilidade/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Conduta Institucional e Responsabilidade
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-Boas-Praticas/Credenciais%20e%20Informa%C3%A7%C3%B5es%20Protegidas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Credenciais e Informações Protegidas
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-Boas-Praticas/Crit%C3%A9rios%20de%20Escolha%20de%20Ferramentas/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Critérios de Escolha de Ferramentas
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-construcao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../06-Boas-Praticas/Revis%C3%A3o%20Humana%20e%20Valida%C3%A7%C3%A3o%20de%20Conte%C3%BAdo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Revisão Humana e Validação de Conteúdo
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    07 Casos de Uso
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    07 Casos de Uso
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Casos-de-Uso/Alice%20CGU%20-%20An%C3%A1lise%20de%20Licita%C3%A7%C3%B5es/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alice CGU - Análise de Licitações
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Casos-de-Uso/Aplica%C3%A7%C3%B5es%20de%20IA%20Generativa%20na%20Administra%C3%A7%C3%A3o%20P%C3%BAblica/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Aplicações de IA Generativa na Administração Pública
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../07-Casos-de-Uso/Casos%20de%20Uso/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Casos de Uso
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--em-construcao"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    08 Glossario
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    08 Glossario
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../08-Glossario/Gloss%C3%A1rio/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Glossário
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_11" >
+        
+          
+          <label class="md-nav__link" for="__nav_11" id="__nav_11_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    09 Referencias
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    09 Referencias
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../09-Referencias/Refer%C3%AAncias/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Referências
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+    
+    
+      
+        
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_12" >
+        
+          
+          <label class="md-nav__link" for="__nav_12" id="__nav_12_label" tabindex="">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    10 Mapas de Conhecimento
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    10 Mapas de Conhecimento
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../10-Mapas-de-Conhecimento/Mapa%20Integrado%20de%20Conhecimento/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mapa Integrado de Conhecimento
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--rascunho"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Índice">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Índice
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-objetivo-e-escopo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Objetivo e escopo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-origem-da-classificacao-no-guia" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Origem da classificação no guia
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-risco-excessivo" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Risco excessivo
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-alto-risco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Alto risco
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-risco-moderado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Risco moderado
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-baixo-risco" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Baixo risco
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-distincao-entre-risco-e-obrigacao-juridica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Distinção entre risco e obrigação jurídica
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-analise-critica-elaboracao-editorial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Análise crítica — elaboração editorial
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#9-medidas-de-governanca-proposta-editorial" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        9. Medidas de governança — proposta editorial
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#10-conexoes-com-a-wiki" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        10. Conexões com a Wiki
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#11-rastreabilidade" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        11. Rastreabilidade
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<div class="admonition warning">
+<p class="admonition-title">Publicação beta — revisão pendente</p>
+<p>Esta Wiki é uma iniciativa editorial de organização e interpretação de conhecimento, baseada no <strong>Guia de Inteligência Artificial Generativa do Governo Federal</strong>. <strong>Não é uma publicação oficial do Governo Federal</strong> e não substitui o documento original.</p>
+<p>O conteúdo encontra-se em <strong>fase beta</strong>, com <strong>revisão humana de conteúdo e revisão jurídica pendentes</strong>. As interpretações, sínteses e recomendações editoriais não devem ser confundidas com determinações legais ou orientações oficiais vinculantes.</p>
+<p>Para decisões institucionais, consulte as fontes primárias, a legislação vigente e as áreas competentes de sua organização.</p>
+</div>
+<h1 id="classificacao-de-riscos-dos-sistemas-de-ia">Classificação de Riscos dos Sistemas de IA<a class="headerlink" href="#classificacao-de-riscos-dos-sistemas-de-ia" title="Permanent link">&para;</a></h1>
+<p><a href="../Riscos/">Voltar ao mapa de Riscos</a></p>
+<h2 id="1-objetivo-e-escopo">1. Objetivo e escopo<a class="headerlink" href="#1-objetivo-e-escopo" title="Permanent link">&para;</a></h2>
+<p>Esta nota documenta a classificação
+de riscos apresentada no guia oficial
+de inteligência artificial generativa.</p>
+<p>O conteúdo abrange sistemas de IA
+de forma mais ampla, conforme
+a terminologia utilizada pela fonte.</p>
+<p>Não constitui parecer jurídico
+nem certificação de conformidade.</p>
+<h2 id="2-origem-da-classificacao-no-guia">2. Origem da classificação no guia<a class="headerlink" href="#2-origem-da-classificacao-no-guia" title="Permanent link">&para;</a></h2>
+<p>O guia informa que sua classificação
+tem como referência o Projeto de Lei
+nº 2338/2023, mencionado como proposta
+em discussão no Congresso Nacional.</p>
+<p>A fonte organiza os sistemas
+em quatro categorias de risco.</p>
+<p><strong>Referência:</strong> <a href="../../01-Fontes/guia-ia-generativa-normalizado/">guia-ia-generativa-normalizado</a>,
+linhas 162–164.</p>
+<p>A classificação é registrada aqui
+como conteúdo do guia, sem presumir
+que o projeto tenha se convertido
+em lei vigente.</p>
+<p><strong>Ressalva regulatória — REV-001:</strong> embora a linha 164 identifique expressamente o PL 2338/2023 como projeto em discussão, o guia utiliza expressões que podem sugerir a existência de um regime jurídico já estabelecido. A linha 226 também afirma que determinados requisitos seriam exigidos por lei, sem identificar nesse trecho uma norma vigente que os estabeleça.</p>
+<p>Essa inconsistência documental está registrada na constatação REV-001, em <a href="../../05-Regulamentacao/Marco%20Legal%20da%20Intelig%C3%AAncia%20Artificial%20no%20Brasil/">Marco Legal da Inteligência Artificial no Brasil</a>. A vigência e a aplicabilidade de obrigações regulatórias exigem verificação jurídica independente.</p>
+<h2 id="3-risco-excessivo">3. Risco excessivo<a class="headerlink" href="#3-risco-excessivo" title="Permanent link">&para;</a></h2>
+<p>O guia descreve como risco excessivo
+aplicações que podem ameaçar
+direitos fundamentais e a sociedade.</p>
+<p>Entre os exemplos apresentados estão:</p>
+<ul>
+<li>Manipulação prejudicial de comportamentos.</li>
+<li>Exploração de vulnerabilidades pessoais.</li>
+<li>Determinados perfis preditivos criminais.</li>
+<li>Pontuação social discriminatória.</li>
+<li>Identificação biométrica em tempo real
+  em espaços públicos, com exceções
+  mencionadas na fonte.</li>
+</ul>
+<p>O guia associa essa categoria
+a proibições propostas no PL 2338/2023.</p>
+<p><strong>Referência:</strong> <a href="../../01-Fontes/guia-ia-generativa-normalizado/">guia-ia-generativa-normalizado</a>,
+linhas 166–178.</p>
+<p>Essas proibições não são apresentadas
+nesta nota como legislação vigente.</p>
+<h2 id="4-alto-risco">4. Alto risco<a class="headerlink" href="#4-alto-risco" title="Permanent link">&para;</a></h2>
+<p>O guia associa sistemas de alto risco
+a impactos significativos sobre
+direitos fundamentais, segurança,
+privacidade e bem-estar.</p>
+<p>Entre os contextos exemplificados:</p>
+<ul>
+<li>Infraestruturas críticas.</li>
+<li>Educação e formação profissional.</li>
+<li>Recrutamento e relações de trabalho.</li>
+<li>Acesso a serviços essenciais.</li>
+<li>Crédito e endividamento.</li>
+<li>Emergências e saúde.</li>
+<li>Justiça e segurança pública.</li>
+<li>Identificação biométrica.</li>
+<li>Migração e controle de fronteiras.</li>
+</ul>
+<p>A fonte menciona avaliação
+de impacto algorítmico,
+transparência, supervisão humana
+e mitigação de riscos.</p>
+<p><strong>Referência:</strong> <a href="../../01-Fontes/guia-ia-generativa-normalizado/">guia-ia-generativa-normalizado</a>,
+linhas 180–210.</p>
+<p>O alcance jurídico dessas medidas
+depende de verificação normativa.</p>
+<h2 id="5-risco-moderado">5. Risco moderado<a class="headerlink" href="#5-risco-moderado" title="Permanent link">&para;</a></h2>
+<p>O guia descreve sistemas capazes
+de produzir efeitos relevantes,
+mas considerados menos graves
+do que os classificados como
+de alto risco.</p>
+<p>Exemplos apresentados:</p>
+<ul>
+<li>Algumas aplicações de recursos humanos.</li>
+<li>Sistemas de recomendação comercial.</li>
+<li>Personalização de ofertas.</li>
+<li>Geração ou manipulação de mídia,
+  inclusive conteúdo potencialmente enganoso.</li>
+</ul>
+<p>A fonte associa essa categoria
+a medidas de transparência,
+explicabilidade e supervisão.</p>
+<p><strong>Referência:</strong> <a href="../../01-Fontes/guia-ia-generativa-normalizado/">guia-ia-generativa-normalizado</a>,
+linhas 212–222.</p>
+<h2 id="6-baixo-risco">6. Baixo risco<a class="headerlink" href="#6-baixo-risco" title="Permanent link">&para;</a></h2>
+<p>O guia apresenta aplicações
+de menor potencial de dano,
+como assistentes virtuais
+sem decisões de consequências
+jurídicas ou econômicas relevantes
+e certos sistemas de recomendação.</p>
+<p>Mesmo nessa categoria, a fonte
+destaca transparência,
+responsabilidade e boas práticas
+de governança.</p>
+<p><strong>Referência:</strong> <a href="../../01-Fontes/guia-ia-generativa-normalizado/">guia-ia-generativa-normalizado</a>,
+linhas 224–230.</p>
+<h2 id="7-distincao-entre-risco-e-obrigacao-juridica">7. Distinção entre risco e obrigação jurídica<a class="headerlink" href="#7-distincao-entre-risco-e-obrigacao-juridica" title="Permanent link">&para;</a></h2>
+<p>A categorização descrita pelo guia
+não deve ser confundida
+com uma confirmação independente
+do estado atual da legislação.</p>
+<p>Há três planos distintos:</p>
+<ol>
+<li><strong>Fonte documental:</strong> o que o guia
+   efetivamente apresenta.</li>
+<li><strong>Situação jurídica:</strong> o que a
+   legislação e a regulamentação
+   vigentes efetivamente exigem.</li>
+<li><strong>Governança institucional:</strong> medidas
+   que uma organização decide adotar
+   conforme seu contexto e riscos.</li>
+</ol>
+<p>A verificação do segundo plano
+permanece pendente.</p>
+<h2 id="8-analise-critica-elaboracao-editorial">8. Análise crítica — elaboração editorial<a class="headerlink" href="#8-analise-critica-elaboracao-editorial" title="Permanent link">&para;</a></h2>
+<p>A classificação de riscos
+deve considerar o contexto real
+de utilização, a finalidade,
+a população afetada
+e as consequências potenciais.</p>
+<p>Uma mesma tecnologia pode apresentar
+níveis de exposição diferentes
+conforme a aplicação concreta.</p>
+<p>As categorias documentais
+não substituem uma avaliação
+específica do caso de uso.</p>
+<p><strong>Sobreposição entre categorias:</strong> o guia apresenta aplicações de recursos humanos tanto na categoria de alto risco (linha 188) quanto na de risco moderado (linha 216). Também menciona sistemas de recomendação nas categorias moderada (linha 218) e baixa (linha 230).</p>
+<p>Essas ocorrências são preservadas como características da fonte documental. Sua interpretação requer considerar a finalidade, o contexto, as consequências potenciais e os critérios normativos aplicáveis a cada sistema.</p>
+<p>A avaliação técnica do risco e o enquadramento jurídico são análises relacionadas, mas distintas. Esta observação constitui uma elaboração editorial e não representa uma interpretação jurídica oficial.</p>
+<p>Esta seção constitui
+interpretação editorial.</p>
+<h2 id="9-medidas-de-governanca-proposta-editorial">9. Medidas de governança — proposta editorial<a class="headerlink" href="#9-medidas-de-governanca-proposta-editorial" title="Permanent link">&para;</a></h2>
+<p>Para cada aplicação de IA,
+a instituição poderá considerar:</p>
+<ul>
+<li>Identificar finalidade e responsáveis.</li>
+<li>Descrever o contexto de utilização.</li>
+<li>Identificar pessoas e grupos afetados.</li>
+<li>Examinar direitos e interesses envolvidos.</li>
+<li>Avaliar probabilidade e consequências.</li>
+<li>Documentar critérios de classificação.</li>
+<li>Definir controles proporcionais ao risco.</li>
+<li>Estabelecer supervisão humana.</li>
+<li>Prever monitoramento e reavaliação.</li>
+<li>Registrar justificativas e decisões.</li>
+<li>Consultar a área jurídica quando cabível.</li>
+</ul>
+<p>Essas medidas são propostas editoriais,
+não obrigações legais afirmadas
+por esta nota.</p>
+<h2 id="10-conexoes-com-a-wiki">10. Conexões com a Wiki<a class="headerlink" href="#10-conexoes-com-a-wiki" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../Riscos/">Riscos</a> — mapa principal.</li>
+<li><a href="../../03-Governanca/Governan%C3%A7a/">Governança</a> — governança institucional.</li>
+<li><a href="../../03-Governanca/%C3%89tica%20e%20Princ%C3%ADpios%20da%20IA%20Generativa/">Ética e Princípios da IA Generativa</a> —
+  direitos fundamentais e princípios.</li>
+<li><a href="../../03-Governanca/Supervis%C3%A3o%20Humana%20e%20Responsabilidade/">Supervisão Humana e Responsabilidade</a> —
+  controle e responsabilidade.</li>
+<li><a href="../../03-Governanca/Transpar%C3%AAncia%20e%20Auditabilidade%20da%20IA%20Generativa/">Transparência e Auditabilidade da IA Generativa</a> —
+  explicabilidade e auditabilidade.</li>
+<li><a href="../../03-Governanca/Governan%C3%A7a%20e%20Prote%C3%A7%C3%A3o%20de%20Dados%20na%20IA%20Generativa/">Governança e Proteção de Dados na IA Generativa</a> —
+  privacidade e segurança.</li>
+<li><a href="../Alucina%C3%A7%C3%B5es%20na%20IA%20Generativa/">Alucinações na IA Generativa</a> —
+  confiabilidade dos resultados.</li>
+<li><a href="../Vieses%20na%20IA%20Generativa/">Vieses na IA Generativa</a> —
+  discriminação e equidade.</li>
+</ul>
+<h2 id="11-rastreabilidade">11. Rastreabilidade<a class="headerlink" href="#11-rastreabilidade" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Fonte cadastrada: <a href="../../01-Fontes/FONTE-001/">FONTE-001</a></li>
+<li>Documento: <a href="../../01-Fontes/guia-ia-generativa-normalizado/">guia-ia-generativa-normalizado</a></li>
+<li>Análise prévia de riscos: linha 104</li>
+<li>Origem da classificação: linhas 162–164</li>
+<li>Referência ao PL 2338/2023: linha 164</li>
+<li>Linguagem de obrigação legal no baixo risco: linha 226</li>
+<li>Sobreposição em recursos humanos: linhas 188 e 216</li>
+<li>Sobreposição em sistemas de recomendação: linhas 218 e 230</li>
+<li>Constatação relacionada: REV-001 — <a href="../../05-Regulamentacao/Marco%20Legal%20da%20Intelig%C3%AAncia%20Artificial%20no%20Brasil/">Marco Legal da Inteligência Artificial no Brasil</a></li>
+<li>Risco excessivo: linhas 166–178</li>
+<li>Alto risco: linhas 180–210</li>
+<li>Risco moderado: linhas 212–222</li>
+<li>Baixo risco: linhas 224–230</li>
+<li>Finalidade, custos e benefícios: linha 492</li>
+<li>Cadeia documental: <a href="../../01-Fontes/PROVENIENCIA/">PROVENIENCIA</a></li>
+<li>Natureza: síntese e análise editorial</li>
+<li>Verificação jurídica: pendente</li>
+<li>Revisão humana: pendente</li>
+</ul>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8z"/></svg>
+  Voltar para o topo
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.sections", "navigation.top", "search.suggest", "search.highlight"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado para \u00e1rea de transfer\u00eancia", "clipboard.copy": "Copiar para \u00e1rea de transfer\u00eancia", "search.result.more.one": "mais 1 nesta p\u00e1gina", "search.result.more.other": "# mais nesta p\u00e1gina", "search.result.none": "Nenhum documento encontrado", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Digite para iniciar a busca", "search.result.term.missing": "Ausente", "select.version": "Selecione a vers\u00e3o"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+    
+  </body>
+</html>
