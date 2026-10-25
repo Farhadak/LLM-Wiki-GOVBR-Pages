@@ -1,0 +1,1440 @@
+{
+  "nodes": [
+    {
+      "id": "00-Inicio/INDEX.md",
+      "label": "LLM Wiki GOV.BR",
+      "category": "00-Inicio",
+      "url": "00-Inicio/INDEX/"
+    },
+    {
+      "id": "02-Fundamentos/Fundamentos.md",
+      "label": "Fundamentos",
+      "category": "02-Fundamentos",
+      "url": "02-Fundamentos/Fundamentos/"
+    },
+    {
+      "id": "02-Fundamentos/Geração Aumentada via Recuperação.md",
+      "label": "Geração Aumentada via Recuperação",
+      "category": "02-Fundamentos",
+      "url": "02-Fundamentos/Geração Aumentada via Recuperação/"
+    },
+    {
+      "id": "02-Fundamentos/Grandes Modelos de Linguagem.md",
+      "label": "Grandes Modelos de Linguagem",
+      "category": "02-Fundamentos",
+      "url": "02-Fundamentos/Grandes Modelos de Linguagem/"
+    },
+    {
+      "id": "02-Fundamentos/Inteligência Artificial Generativa.md",
+      "label": "Inteligência Artificial Generativa",
+      "category": "02-Fundamentos",
+      "url": "02-Fundamentos/Inteligência Artificial Generativa/"
+    },
+    {
+      "id": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "label": "Governança e Proteção de Dados na IA Generativa",
+      "category": "03-Governanca",
+      "url": "03-Governanca/Governança e Proteção de Dados na IA Generativa/"
+    },
+    {
+      "id": "03-Governanca/Governança.md",
+      "label": "Governança",
+      "category": "03-Governanca",
+      "url": "03-Governanca/Governança/"
+    },
+    {
+      "id": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "label": "Supervisão Humana e Responsabilidade",
+      "category": "03-Governanca",
+      "url": "03-Governanca/Supervisão Humana e Responsabilidade/"
+    },
+    {
+      "id": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md",
+      "label": "Transparência e Auditabilidade da IA Generativa",
+      "category": "03-Governanca",
+      "url": "03-Governanca/Transparência e Auditabilidade da IA Generativa/"
+    },
+    {
+      "id": "03-Governanca/Ética e Princípios da IA Generativa.md",
+      "label": "Ética e Princípios da IA Generativa",
+      "category": "03-Governanca",
+      "url": "03-Governanca/Ética e Princípios da IA Generativa/"
+    },
+    {
+      "id": "04-Riscos/Alucinações na IA Generativa.md",
+      "label": "Alucinações na IA Generativa",
+      "category": "04-Riscos",
+      "url": "04-Riscos/Alucinações na IA Generativa/"
+    },
+    {
+      "id": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md",
+      "label": "Classificação de Riscos dos Sistemas de IA",
+      "category": "04-Riscos",
+      "url": "04-Riscos/Classificação de Riscos dos Sistemas de IA/"
+    },
+    {
+      "id": "04-Riscos/Riscos.md",
+      "label": "Riscos",
+      "category": "04-Riscos",
+      "url": "04-Riscos/Riscos/"
+    },
+    {
+      "id": "04-Riscos/Vieses na IA Generativa.md",
+      "label": "Vieses na IA Generativa",
+      "category": "04-Riscos",
+      "url": "04-Riscos/Vieses na IA Generativa/"
+    },
+    {
+      "id": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md",
+      "label": "LGPD e Proteção de Dados na IA Generativa",
+      "category": "05-Regulamentacao",
+      "url": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa/"
+    },
+    {
+      "id": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil.md",
+      "label": "Marco Legal da Inteligência Artificial no Brasil",
+      "category": "05-Regulamentacao",
+      "url": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil/"
+    },
+    {
+      "id": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md",
+      "label": "Normas e Orientações Institucionais para IA Generativa",
+      "category": "05-Regulamentacao",
+      "url": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa/"
+    },
+    {
+      "id": "05-Regulamentacao/Regulamentação.md",
+      "label": "Regulamentação",
+      "category": "05-Regulamentacao",
+      "url": "05-Regulamentacao/Regulamentação/"
+    },
+    {
+      "id": "06-Boas-Praticas/Boas Práticas.md",
+      "label": "Boas Práticas",
+      "category": "06-Boas-Praticas",
+      "url": "06-Boas-Praticas/Boas Práticas/"
+    },
+    {
+      "id": "06-Boas-Praticas/Competências Digitais e Literacia em IA.md",
+      "label": "Competências Digitais e Literacia em IA",
+      "category": "06-Boas-Praticas",
+      "url": "06-Boas-Praticas/Competências Digitais e Literacia em IA/"
+    },
+    {
+      "id": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md",
+      "label": "Conduta Institucional e Responsabilidade",
+      "category": "06-Boas-Praticas",
+      "url": "06-Boas-Praticas/Conduta Institucional e Responsabilidade/"
+    },
+    {
+      "id": "06-Boas-Praticas/Credenciais e Informações Protegidas.md",
+      "label": "Credenciais e Informações Protegidas",
+      "category": "06-Boas-Praticas",
+      "url": "06-Boas-Praticas/Credenciais e Informações Protegidas/"
+    },
+    {
+      "id": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md",
+      "label": "Critérios de Escolha de Ferramentas",
+      "category": "06-Boas-Praticas",
+      "url": "06-Boas-Praticas/Critérios de Escolha de Ferramentas/"
+    },
+    {
+      "id": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md",
+      "label": "Revisão Humana e Validação de Conteúdo",
+      "category": "06-Boas-Praticas",
+      "url": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo/"
+    },
+    {
+      "id": "07-Casos-de-Uso/Alice CGU - Análise de Licitações.md",
+      "label": "Alice CGU - Análise de Licitações",
+      "category": "07-Casos-de-Uso",
+      "url": "07-Casos-de-Uso/Alice CGU - Análise de Licitações/"
+    },
+    {
+      "id": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md",
+      "label": "Aplicações de IA Generativa na Administração Pública",
+      "category": "07-Casos-de-Uso",
+      "url": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública/"
+    },
+    {
+      "id": "07-Casos-de-Uso/Casos de Uso.md",
+      "label": "Casos de Uso",
+      "category": "07-Casos-de-Uso",
+      "url": "07-Casos-de-Uso/Casos de Uso/"
+    },
+    {
+      "id": "08-Glossario/Glossário.md",
+      "label": "Glossário",
+      "category": "08-Glossario",
+      "url": "08-Glossario/Glossário/"
+    },
+    {
+      "id": "09-Referencias/Referências.md",
+      "label": "Referências",
+      "category": "09-Referencias",
+      "url": "09-Referencias/Referências/"
+    },
+    {
+      "id": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md",
+      "label": "Mapa Integrado de Conhecimento",
+      "category": "10-Mapas-de-Conhecimento",
+      "url": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento/"
+    },
+    {
+      "id": "01-Fontes/FONTE-001.md",
+      "label": "Guia de Inteligência Artificial Generativa - Governo Federal",
+      "category": "01-Fontes",
+      "url": "01-Fontes/FONTE-001/"
+    },
+    {
+      "id": "01-Fontes/PROVENIENCIA.md",
+      "label": "PROVENIENCIA",
+      "category": "01-Fontes",
+      "url": "01-Fontes/PROVENIENCIA/"
+    },
+    {
+      "id": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "label": "guia-ia-generativa-normalizado",
+      "category": "01-Fontes",
+      "url": "01-Fontes/guia-ia-generativa-normalizado/"
+    }
+  ],
+  "edges": [
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "01-Fontes/FONTE-001.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "01-Fontes/PROVENIENCIA.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "01-Fontes/guia-ia-generativa-normalizado.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "02-Fundamentos/Fundamentos.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "02-Fundamentos/Grandes Modelos de Linguagem.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "02-Fundamentos/Inteligência Artificial Generativa.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "03-Governanca/Governança.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "03-Governanca/Supervisão Humana e Responsabilidade.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "04-Riscos/Riscos.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "05-Regulamentacao/Regulamentação.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "06-Boas-Praticas/Boas Práticas.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "06-Boas-Praticas/Credenciais e Informações Protegidas.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "07-Casos-de-Uso/Casos de Uso.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "08-Glossario/Glossário.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "09-Referencias/Referências.md"
+    },
+    {
+      "source": "00-Inicio/INDEX.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "01-Fontes/PROVENIENCIA.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "02-Fundamentos/Fundamentos.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "02-Fundamentos/Geração Aumentada via Recuperação.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "02-Fundamentos/Grandes Modelos de Linguagem.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "02-Fundamentos/Inteligência Artificial Generativa.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "03-Governanca/Governança.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "03-Governanca/Supervisão Humana e Responsabilidade.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "03-Governanca/Ética e Princípios da IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "04-Riscos/Alucinações na IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "04-Riscos/Riscos.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "04-Riscos/Vieses na IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "05-Regulamentacao/Regulamentação.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "06-Boas-Praticas/Boas Práticas.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "06-Boas-Praticas/Competências Digitais e Literacia em IA.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "06-Boas-Praticas/Credenciais e Informações Protegidas.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "07-Casos-de-Uso/Alice CGU - Análise de Licitações.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "07-Casos-de-Uso/Casos de Uso.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "08-Glossario/Glossário.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "09-Referencias/Referências.md"
+    },
+    {
+      "source": "01-Fontes/FONTE-001.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "02-Fundamentos/Fundamentos.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "02-Fundamentos/Geração Aumentada via Recuperação.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "02-Fundamentos/Grandes Modelos de Linguagem.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "02-Fundamentos/Inteligência Artificial Generativa.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "03-Governanca/Governança.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "03-Governanca/Supervisão Humana e Responsabilidade.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "03-Governanca/Ética e Princípios da IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "04-Riscos/Alucinações na IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "04-Riscos/Riscos.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "04-Riscos/Vieses na IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "05-Regulamentacao/Regulamentação.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "06-Boas-Praticas/Boas Práticas.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "06-Boas-Praticas/Competências Digitais e Literacia em IA.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "06-Boas-Praticas/Credenciais e Informações Protegidas.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "01-Fontes/PROVENIENCIA.md",
+      "target": "07-Casos-de-Uso/Casos de Uso.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "02-Fundamentos/Fundamentos.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "02-Fundamentos/Geração Aumentada via Recuperação.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "02-Fundamentos/Grandes Modelos de Linguagem.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "02-Fundamentos/Inteligência Artificial Generativa.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "03-Governanca/Governança.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "03-Governanca/Supervisão Humana e Responsabilidade.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "03-Governanca/Ética e Princípios da IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "04-Riscos/Alucinações na IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "04-Riscos/Riscos.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "04-Riscos/Vieses na IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "05-Regulamentacao/Regulamentação.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "06-Boas-Praticas/Boas Práticas.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "06-Boas-Praticas/Competências Digitais e Literacia em IA.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "06-Boas-Praticas/Credenciais e Informações Protegidas.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "07-Casos-de-Uso/Alice CGU - Análise de Licitações.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "07-Casos-de-Uso/Casos de Uso.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "08-Glossario/Glossário.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "09-Referencias/Referências.md"
+    },
+    {
+      "source": "01-Fontes/guia-ia-generativa-normalizado.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "02-Fundamentos/Fundamentos.md",
+      "target": "02-Fundamentos/Geração Aumentada via Recuperação.md"
+    },
+    {
+      "source": "02-Fundamentos/Fundamentos.md",
+      "target": "02-Fundamentos/Grandes Modelos de Linguagem.md"
+    },
+    {
+      "source": "02-Fundamentos/Fundamentos.md",
+      "target": "02-Fundamentos/Inteligência Artificial Generativa.md"
+    },
+    {
+      "source": "02-Fundamentos/Fundamentos.md",
+      "target": "03-Governanca/Governança.md"
+    },
+    {
+      "source": "02-Fundamentos/Fundamentos.md",
+      "target": "05-Regulamentacao/Regulamentação.md"
+    },
+    {
+      "source": "02-Fundamentos/Fundamentos.md",
+      "target": "06-Boas-Praticas/Boas Práticas.md"
+    },
+    {
+      "source": "02-Fundamentos/Fundamentos.md",
+      "target": "06-Boas-Praticas/Competências Digitais e Literacia em IA.md"
+    },
+    {
+      "source": "02-Fundamentos/Fundamentos.md",
+      "target": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md"
+    },
+    {
+      "source": "02-Fundamentos/Fundamentos.md",
+      "target": "07-Casos-de-Uso/Casos de Uso.md"
+    },
+    {
+      "source": "02-Fundamentos/Fundamentos.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "02-Fundamentos/Geração Aumentada via Recuperação.md",
+      "target": "02-Fundamentos/Grandes Modelos de Linguagem.md"
+    },
+    {
+      "source": "02-Fundamentos/Geração Aumentada via Recuperação.md",
+      "target": "04-Riscos/Alucinações na IA Generativa.md"
+    },
+    {
+      "source": "02-Fundamentos/Geração Aumentada via Recuperação.md",
+      "target": "08-Glossario/Glossário.md"
+    },
+    {
+      "source": "02-Fundamentos/Geração Aumentada via Recuperação.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "02-Fundamentos/Grandes Modelos de Linguagem.md",
+      "target": "02-Fundamentos/Inteligência Artificial Generativa.md"
+    },
+    {
+      "source": "02-Fundamentos/Grandes Modelos de Linguagem.md",
+      "target": "03-Governanca/Supervisão Humana e Responsabilidade.md"
+    },
+    {
+      "source": "02-Fundamentos/Grandes Modelos de Linguagem.md",
+      "target": "04-Riscos/Alucinações na IA Generativa.md"
+    },
+    {
+      "source": "02-Fundamentos/Grandes Modelos de Linguagem.md",
+      "target": "04-Riscos/Vieses na IA Generativa.md"
+    },
+    {
+      "source": "02-Fundamentos/Grandes Modelos de Linguagem.md",
+      "target": "08-Glossario/Glossário.md"
+    },
+    {
+      "source": "02-Fundamentos/Grandes Modelos de Linguagem.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "02-Fundamentos/Inteligência Artificial Generativa.md",
+      "target": "08-Glossario/Glossário.md"
+    },
+    {
+      "source": "02-Fundamentos/Inteligência Artificial Generativa.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "03-Governanca/Governança.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "03-Governanca/Supervisão Humana e Responsabilidade.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "03-Governanca/Ética e Princípios da IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "04-Riscos/Riscos.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "04-Riscos/Vieses na IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "05-Regulamentacao/Regulamentação.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "06-Boas-Praticas/Boas Práticas.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "06-Boas-Praticas/Credenciais e Informações Protegidas.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md"
+    },
+    {
+      "source": "03-Governanca/Governança e Proteção de Dados na IA Generativa.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "03-Governanca/Supervisão Humana e Responsabilidade.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "03-Governanca/Ética e Princípios da IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "04-Riscos/Alucinações na IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "04-Riscos/Riscos.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "04-Riscos/Vieses na IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "05-Regulamentacao/Regulamentação.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "06-Boas-Praticas/Boas Práticas.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "06-Boas-Praticas/Credenciais e Informações Protegidas.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "07-Casos-de-Uso/Alice CGU - Análise de Licitações.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "07-Casos-de-Uso/Casos de Uso.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "08-Glossario/Glossário.md"
+    },
+    {
+      "source": "03-Governanca/Governança.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "03-Governanca/Ética e Princípios da IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "04-Riscos/Alucinações na IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "04-Riscos/Riscos.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "04-Riscos/Vieses na IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "06-Boas-Praticas/Boas Práticas.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "06-Boas-Praticas/Competências Digitais e Literacia em IA.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "06-Boas-Praticas/Credenciais e Informações Protegidas.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "07-Casos-de-Uso/Alice CGU - Análise de Licitações.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "07-Casos-de-Uso/Casos de Uso.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "08-Glossario/Glossário.md"
+    },
+    {
+      "source": "03-Governanca/Supervisão Humana e Responsabilidade.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md",
+      "target": "03-Governanca/Ética e Princípios da IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md",
+      "target": "04-Riscos/Alucinações na IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md",
+      "target": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md"
+    },
+    {
+      "source": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md",
+      "target": "04-Riscos/Riscos.md"
+    },
+    {
+      "source": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md",
+      "target": "04-Riscos/Vieses na IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md",
+      "target": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil.md"
+    },
+    {
+      "source": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md",
+      "target": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md",
+      "target": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md"
+    },
+    {
+      "source": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md",
+      "target": "06-Boas-Praticas/Credenciais e Informações Protegidas.md"
+    },
+    {
+      "source": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md",
+      "target": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md"
+    },
+    {
+      "source": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md",
+      "target": "07-Casos-de-Uso/Alice CGU - Análise de Licitações.md"
+    },
+    {
+      "source": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md",
+      "target": "08-Glossario/Glossário.md"
+    },
+    {
+      "source": "03-Governanca/Transparência e Auditabilidade da IA Generativa.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "03-Governanca/Ética e Princípios da IA Generativa.md",
+      "target": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md"
+    },
+    {
+      "source": "03-Governanca/Ética e Princípios da IA Generativa.md",
+      "target": "04-Riscos/Riscos.md"
+    },
+    {
+      "source": "03-Governanca/Ética e Princípios da IA Generativa.md",
+      "target": "04-Riscos/Vieses na IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Ética e Princípios da IA Generativa.md",
+      "target": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md"
+    },
+    {
+      "source": "03-Governanca/Ética e Princípios da IA Generativa.md",
+      "target": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil.md"
+    },
+    {
+      "source": "03-Governanca/Ética e Princípios da IA Generativa.md",
+      "target": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md"
+    },
+    {
+      "source": "03-Governanca/Ética e Princípios da IA Generativa.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "03-Governanca/Ética e Princípios da IA Generativa.md",
+      "target": "09-Referencias/Referências.md"
+    },
+    {
+      "source": "03-Governanca/Ética e Princípios da IA Generativa.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "04-Riscos/Alucinações na IA Generativa.md",
+      "target": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md"
+    },
+    {
+      "source": "04-Riscos/Alucinações na IA Generativa.md",
+      "target": "04-Riscos/Riscos.md"
+    },
+    {
+      "source": "04-Riscos/Alucinações na IA Generativa.md",
+      "target": "04-Riscos/Vieses na IA Generativa.md"
+    },
+    {
+      "source": "04-Riscos/Alucinações na IA Generativa.md",
+      "target": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md"
+    },
+    {
+      "source": "04-Riscos/Alucinações na IA Generativa.md",
+      "target": "06-Boas-Praticas/Boas Práticas.md"
+    },
+    {
+      "source": "04-Riscos/Alucinações na IA Generativa.md",
+      "target": "06-Boas-Praticas/Competências Digitais e Literacia em IA.md"
+    },
+    {
+      "source": "04-Riscos/Alucinações na IA Generativa.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "04-Riscos/Alucinações na IA Generativa.md",
+      "target": "08-Glossario/Glossário.md"
+    },
+    {
+      "source": "04-Riscos/Alucinações na IA Generativa.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md",
+      "target": "04-Riscos/Riscos.md"
+    },
+    {
+      "source": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md",
+      "target": "04-Riscos/Vieses na IA Generativa.md"
+    },
+    {
+      "source": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md",
+      "target": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil.md"
+    },
+    {
+      "source": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md",
+      "target": "05-Regulamentacao/Regulamentação.md"
+    },
+    {
+      "source": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md",
+      "target": "06-Boas-Praticas/Boas Práticas.md"
+    },
+    {
+      "source": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md",
+      "target": "09-Referencias/Referências.md"
+    },
+    {
+      "source": "04-Riscos/Classificação de Riscos dos Sistemas de IA.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "04-Riscos/Riscos.md",
+      "target": "04-Riscos/Vieses na IA Generativa.md"
+    },
+    {
+      "source": "04-Riscos/Riscos.md",
+      "target": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md"
+    },
+    {
+      "source": "04-Riscos/Riscos.md",
+      "target": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil.md"
+    },
+    {
+      "source": "04-Riscos/Riscos.md",
+      "target": "06-Boas-Praticas/Boas Práticas.md"
+    },
+    {
+      "source": "04-Riscos/Riscos.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "04-Riscos/Riscos.md",
+      "target": "07-Casos-de-Uso/Alice CGU - Análise de Licitações.md"
+    },
+    {
+      "source": "04-Riscos/Riscos.md",
+      "target": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md"
+    },
+    {
+      "source": "04-Riscos/Riscos.md",
+      "target": "07-Casos-de-Uso/Casos de Uso.md"
+    },
+    {
+      "source": "04-Riscos/Riscos.md",
+      "target": "08-Glossario/Glossário.md"
+    },
+    {
+      "source": "04-Riscos/Riscos.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "04-Riscos/Vieses na IA Generativa.md",
+      "target": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md"
+    },
+    {
+      "source": "04-Riscos/Vieses na IA Generativa.md",
+      "target": "06-Boas-Praticas/Boas Práticas.md"
+    },
+    {
+      "source": "04-Riscos/Vieses na IA Generativa.md",
+      "target": "06-Boas-Praticas/Competências Digitais e Literacia em IA.md"
+    },
+    {
+      "source": "04-Riscos/Vieses na IA Generativa.md",
+      "target": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md"
+    },
+    {
+      "source": "04-Riscos/Vieses na IA Generativa.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "04-Riscos/Vieses na IA Generativa.md",
+      "target": "08-Glossario/Glossário.md"
+    },
+    {
+      "source": "04-Riscos/Vieses na IA Generativa.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md",
+      "target": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil.md"
+    },
+    {
+      "source": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md",
+      "target": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md"
+    },
+    {
+      "source": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md",
+      "target": "05-Regulamentacao/Regulamentação.md"
+    },
+    {
+      "source": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md",
+      "target": "06-Boas-Praticas/Boas Práticas.md"
+    },
+    {
+      "source": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md",
+      "target": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md"
+    },
+    {
+      "source": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md",
+      "target": "06-Boas-Praticas/Credenciais e Informações Protegidas.md"
+    },
+    {
+      "source": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md",
+      "target": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md"
+    },
+    {
+      "source": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md",
+      "target": "07-Casos-de-Uso/Alice CGU - Análise de Licitações.md"
+    },
+    {
+      "source": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md",
+      "target": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md"
+    },
+    {
+      "source": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md",
+      "target": "07-Casos-de-Uso/Casos de Uso.md"
+    },
+    {
+      "source": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md",
+      "target": "08-Glossario/Glossário.md"
+    },
+    {
+      "source": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md",
+      "target": "09-Referencias/Referências.md"
+    },
+    {
+      "source": "05-Regulamentacao/LGPD e Proteção de Dados na IA Generativa.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil.md",
+      "target": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md"
+    },
+    {
+      "source": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil.md",
+      "target": "05-Regulamentacao/Regulamentação.md"
+    },
+    {
+      "source": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil.md",
+      "target": "06-Boas-Praticas/Boas Práticas.md"
+    },
+    {
+      "source": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil.md",
+      "target": "09-Referencias/Referências.md"
+    },
+    {
+      "source": "05-Regulamentacao/Marco Legal da Inteligência Artificial no Brasil.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md",
+      "target": "05-Regulamentacao/Regulamentação.md"
+    },
+    {
+      "source": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md",
+      "target": "06-Boas-Praticas/Boas Práticas.md"
+    },
+    {
+      "source": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md",
+      "target": "06-Boas-Praticas/Credenciais e Informações Protegidas.md"
+    },
+    {
+      "source": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md",
+      "target": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md"
+    },
+    {
+      "source": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md",
+      "target": "07-Casos-de-Uso/Alice CGU - Análise de Licitações.md"
+    },
+    {
+      "source": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md",
+      "target": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md"
+    },
+    {
+      "source": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md",
+      "target": "07-Casos-de-Uso/Casos de Uso.md"
+    },
+    {
+      "source": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md",
+      "target": "09-Referencias/Referências.md"
+    },
+    {
+      "source": "05-Regulamentacao/Normas e Orientações Institucionais para IA Generativa.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "05-Regulamentacao/Regulamentação.md",
+      "target": "06-Boas-Praticas/Boas Práticas.md"
+    },
+    {
+      "source": "05-Regulamentacao/Regulamentação.md",
+      "target": "06-Boas-Praticas/Credenciais e Informações Protegidas.md"
+    },
+    {
+      "source": "05-Regulamentacao/Regulamentação.md",
+      "target": "07-Casos-de-Uso/Casos de Uso.md"
+    },
+    {
+      "source": "05-Regulamentacao/Regulamentação.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Boas Práticas.md",
+      "target": "06-Boas-Praticas/Competências Digitais e Literacia em IA.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Boas Práticas.md",
+      "target": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Boas Práticas.md",
+      "target": "06-Boas-Praticas/Credenciais e Informações Protegidas.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Boas Práticas.md",
+      "target": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Boas Práticas.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Boas Práticas.md",
+      "target": "07-Casos-de-Uso/Alice CGU - Análise de Licitações.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Boas Práticas.md",
+      "target": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Boas Práticas.md",
+      "target": "07-Casos-de-Uso/Casos de Uso.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Boas Práticas.md",
+      "target": "08-Glossario/Glossário.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Boas Práticas.md",
+      "target": "09-Referencias/Referências.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Boas Práticas.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Competências Digitais e Literacia em IA.md",
+      "target": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Competências Digitais e Literacia em IA.md",
+      "target": "06-Boas-Praticas/Credenciais e Informações Protegidas.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Competências Digitais e Literacia em IA.md",
+      "target": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Competências Digitais e Literacia em IA.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Competências Digitais e Literacia em IA.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md",
+      "target": "06-Boas-Praticas/Credenciais e Informações Protegidas.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md",
+      "target": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Conduta Institucional e Responsabilidade.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Credenciais e Informações Protegidas.md",
+      "target": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Credenciais e Informações Protegidas.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Credenciais e Informações Protegidas.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md",
+      "target": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md",
+      "target": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md",
+      "target": "07-Casos-de-Uso/Casos de Uso.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md",
+      "target": "08-Glossario/Glossário.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Critérios de Escolha de Ferramentas.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md",
+      "target": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md"
+    },
+    {
+      "source": "06-Boas-Praticas/Revisão Humana e Validação de Conteúdo.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "07-Casos-de-Uso/Alice CGU - Análise de Licitações.md",
+      "target": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md"
+    },
+    {
+      "source": "07-Casos-de-Uso/Alice CGU - Análise de Licitações.md",
+      "target": "07-Casos-de-Uso/Casos de Uso.md"
+    },
+    {
+      "source": "07-Casos-de-Uso/Alice CGU - Análise de Licitações.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md",
+      "target": "07-Casos-de-Uso/Casos de Uso.md"
+    },
+    {
+      "source": "07-Casos-de-Uso/Aplicações de IA Generativa na Administração Pública.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "07-Casos-de-Uso/Casos de Uso.md",
+      "target": "09-Referencias/Referências.md"
+    },
+    {
+      "source": "07-Casos-de-Uso/Casos de Uso.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "08-Glossario/Glossário.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    },
+    {
+      "source": "09-Referencias/Referências.md",
+      "target": "10-Mapas-de-Conhecimento/Mapa Integrado de Conhecimento.md"
+    }
+  ]
+}
